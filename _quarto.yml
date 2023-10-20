@@ -3,7 +3,8 @@ project:
   output-dir: docs
 
 book:
-  title: "Modelo de Costos UNAL<br> Metodología de Cálculo"
+  title: "Modelo de Costos UNAL"
+  subtitle: "Metodología de Cálculo"
   author: "Gerencia Nacional Financiera y Administrativa"
   cover-image: Imagenes/Portada.png
   repo-url: https://github.com/estadisticaun/MCostos
