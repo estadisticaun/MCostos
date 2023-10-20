@@ -1,0 +1,31 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Modelo de Costos UNAL<br> Metodología de Cálculo"
+  author: "Gerencia Nacional Financiera y Administrativa"
+  cover-image: Imagenes/Portada.png
+  repo-url: https://github.com/estadisticaun/MCostos
+  repo-branch: master
+  repo-actions: [edit]
+  sharing: [twitter, facebook, linkedin]
+  date: last-modified
+  date-format: "MM-D-YYYY"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: simplex
+    css: style.css
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
