@@ -1,9 +1,7 @@
 # Prefacio {.unnumbered}
 
-This is a Quarto book.
+Este documento contiene los elementos centrales de la metodología empleada en la Universidad Nacional de Colombia para la consolidación de los costos resultantes del cumplimiento de la misión institucional. 
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+A través de esta metodología, entre otros aspectos, los interesados podrán conocer los principales factores/agrupaciones generadores de costos, así como la forma en la que éstos participan en los costeos a nivel de sedes, facultades y programas académicos.
 
-```{r}
-1 + 1
-```
+Invitamos a los lectores a explorar y conocer esta propuesta metodológica.

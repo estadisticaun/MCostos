@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "Modelo de Costos UNAL",
     "section": "",
-    "text": "Prefacio\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2"
+    "text": "Prefacio\nEste documento contiene los elementos centrales de la metodología empleada en la Universidad Nacional de Colombia para la consolidación de los costos resultantes del cumplimiento de la misión institucional.\nA través de esta metodología, entre otros aspectos, los interesados podrán conocer los principales factores/agrupaciones generadores de costos, así como la forma en la que éstos participan en los costeos a nivel de sedes, facultades y programas académicos.\nInvitamos a los lectores a explorar y conocer esta propuesta metodológica."
   },
   {
-    "objectID": "intro.html#párrafo-justificado",
-    "href": "intro.html#párrafo-justificado",
+    "objectID": "intro.html",
+    "href": "intro.html",
     "title": "1  Introducción",
-    "section": "1.1 Párrafo Justificado",
-    "text": "1.1 Párrafo Justificado\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\nThe color of this word is red. And this line has a yellow background.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+    "section": "",
+    "text": "La implementación y actualización del “Sistema de costos de la Universidad Nacional de Colombia” tiene como objetivo general determinar el costo unitario por estudiante para los programas de pregrado y posgrado, así como, el costo de las funciones misionales de investigación y extensión, información que sea útil a los distintos usuarios de esta institución y por ende relevante para la toma de decisiones.\nEl sistema surge a partir de la necesidad que tiene la Universidad de conocer y controlar los costos en los que incurre para el desarrollo de sus actividades misionales: formación (pregrado y posgrado), proyectos de investigación, y proyectos de extensión."
   },
   {
     "objectID": "summary.html#párrafo-justificado",
@@ -19,12 +19,5 @@
     "title": "2  Resumen",
     "section": "2.1 Párrafo Justificado",
     "text": "2.1 Párrafo Justificado\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\nThe color of this word is red. And this line has a yellow background."
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "Referencias",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
   }
 ]

@@ -1,26 +1,5 @@
 # Introducción
 
-<!-- ```{css, echo = FALSE} -->
-<!-- body { -->
-<!--   text-align: justify; -->
-<!-- } -->
+La implementación y actualización del “Sistema de costos de la Universidad Nacional de Colombia” tiene como objetivo general determinar el costo unitario por estudiante para los programas de pregrado y posgrado, así como, el costo de las funciones misionales de investigación y extensión, información que sea útil a los distintos usuarios de esta institución y por ende relevante para la toma de decisiones. 
 
-<!-- h2 { -->
-<!--    color: green; -->
-<!-- } -->
-<!-- ``` -->
-
-This is a book created from markdown and executable code.
-
-See @knuth84 for additional discussion of literate programming.
-
-```{r}
-1 + 1
-```
-
-## Párrafo Justificado
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-The color of this word is [red]{style="color: red;"}. 
-And [this line has a yellow background]{style="background-color: yellow"}.
+El sistema surge a partir de la necesidad que tiene la Universidad de conocer y controlar los costos en los que incurre para el desarrollo de sus actividades misionales: formación (pregrado y posgrado), proyectos de investigación, y proyectos de extensión.
