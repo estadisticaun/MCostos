@@ -6,7 +6,7 @@ book:
   title: "Modelo de Costos UNAL"
   subtitle: "Metodología de Cálculo"
   author: "Gerencia Nacional Financiera y Administrativa"
-  cover-image: Imagenes/Portada.png
+  cover-image: Imagenes/Portada1.png
   repo-url: https://github.com/estadisticaun/MCostos
   repo-branch: master
   repo-actions: [edit]
