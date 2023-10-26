@@ -1,5 +1,56 @@
-# Introducción
+# Introducción {#sec-intro .unnumbered}
 
-La implementación y actualización del “Sistema de costos de la Universidad Nacional de Colombia” tiene como objetivo general determinar el costo unitario por estudiante para los programas de pregrado y posgrado, así como, el costo de las funciones misionales de investigación y extensión, información que sea útil a los distintos usuarios de esta institución y por ende relevante para la toma de decisiones. 
+La implementación y actualización del "Sistema de costos de la Universidad Nacional de Colombia" tiene como objetivo general determinar el costo unitario por estudiante para los programas de pregrado y posgrado, así como, el costo de las funciones misionales de investigación y extensión, información que sea útil a los distintos usuarios de esta institución y por ende relevante para la toma de decisiones.
 
 El sistema surge a partir de la necesidad que tiene la Universidad de conocer y controlar los costos en los que incurre para el desarrollo de sus actividades misionales: formación (pregrado y posgrado), proyectos de investigación, y proyectos de extensión.
+
+En este punto, es importante traer a colación lo indicado en el Libro Blanco de los Costes a cerca de la formulación de un proyecto de costes para una universidad (López Hernández, Carrasco Díaz, & otros, 2011, pág. 563) [@LopezCarrasco, pp. 563]:
+
+> \`\`...se trata de un proyecto que debe abordarse con una absoluta convicción por parte de los máximos órganos rectores de la Universidad, que deben impulsarlo para garantizar su éxito y la utilidad última que, con independencia del cumplimiento de las obligaciones legales que, en cada momento resulten vigentes, es capaz de aportar para la gestión racional de ésta"
+
+Del objetivo general del sistema se desprenden las siguientes metas generales:
+
+-   Implementar el modelo del sistema de costos definido por la Universidad para determinar el costo por estudiante, para cada uno de los programas curriculares de pregrado y posgrado en los niveles de sede y de facultad al interior de la Universidad Nacional de Colombia.
+
+-   Implementar el modelo del sistema de costos para determinar el costo de la función de investigación y extensión para la Universidad Nacional de Colombia.
+
+En razón a lo expuesto, en el presente documento se describe la metodología que se definió para determinar el costo por actividad misional de la Universidad; para ello se parte de la información contable agregada de la Universidad de cierre de vigencia (estados financieros), la cual presenta algunas depuraciones, agrupaciones, y distribuciones definidas en el modelo, hasta llegar a la asignación de costos por programa curricular en el caso de pregrado y posgrado, y el costo de las funciones de investigación y extensión. Se propone como futuras etapas del modelo de costos continuar con la determinación de los costos por proyectos, así como, generar estrategias para la socialización y apropiación de los resultados del modelo en la alta dirección de la Universidad, de forma que se constituya en una herramienta para la toma de decisiones.
+
+Para el desarrollo del modelo se tienen como fuentes de información: (i) Información contable generada desde el Sistema de Gestión Financiera --QUIPU, en adelante SGF QUIPU, (ii) información de los cursos aportados por la Dirección Nacional de Información Académica, Registro y Matrícula, en adelante DINARA, (iii) Programa de Trabajo Académico en cabeza de la División Nacional de Personal Académico y Administrativo, en adelante PTA, (iv) Información estadística suministrada por el área de Planeación; y en general, es necesario contar con el apoyo de otras áreas donde se genere información susceptible de ser incorporada en el desarrollo del modelo de costos de la Universidad como lo son las áreas financieras y administrativas (de sede y facultad), las áreas de investigación y extensión, los laboratorios, entre otros.
+
+# Importancia de la contabilidad de costos {#sec-importancia .unnumbered}
+
+La contabilidad de gestión o de costos es un elemento sumamente importante para las organizaciones, toda vez que entre los objetivos de la misma se destaca la valoración del costo de producción, y el suministro de información para la planificación, evaluación y control, así como el apoyo en la toma de decisiones estratégicas, tácticas y operativas (Ripoll Feliu, 1992). Pese a ello, la contabilidad de gestión en Colombia ha sido un campo descuidado por años en el contexto empresarial, como ha sido puesto en evidencia por diferentes autores.
+
+Este hecho se presenta de manera preponderante en el sector público, en respuesta a esta situación, la Contaduría General de la Nación publicó en el año 2008 el Marco de Referencia para la Implantación del Sistema de Costos en las Entidades del Sector Público. En dicho documento, la Contaduría define el sistema de costos como el "conjunto de metodologías, modelos o procedimientos contables y administrativos que se llevan a cabo con el objetivo de determinar el costo de los diferentes objetos de costo" (Contaduría General de la Nación, 2008). El mismo documento menciona la tendencia en el ámbito internacional de adoptar políticas públicas que permitan el mejoramiento de la información contable y la inclusión de costos, así como algunas ventajas derivadas de la implementación de la contabilidad de costos, de las que se pueden destacar las siguientes (Contaduría General de la Nación, 2008):
+
+-   Facilita la obtención del costo de programas especiales, proyectos, productos o servicios, con o sin retribución económica.
+
+-   Mejora la eficacia y eficiencia en el manejo de los recursos públicos.
+
+-   Permite a la comunidad evaluar la gestión realizada.
+
+-   El costo es una herramienta financiera útil para la toma de decisiones.
+
+-   Permite hacer más eficiente la planeación y los presupuestos.
+
+-   Constituye una herramienta para la evaluación del desempeño de directores y administradores. En este sentido, es importante mencionar el Libro Blanco de los Costes en las Universidades, publicado por la Oficina de Cooperación Universitaria en el año 2011, el texto pone en evidencia la necesidad de la implementación de sistemas de costos en las Universidades, destacando, entre otros, los siguientes objetivos a perseguir con un modelo de costos- (López Hernández, Carrasco Díaz, & otros, 2011).
+
+-   Valoración de activos generados por la actividad de la universidad.
+
+-   Evaluación de la eficiencia y economía con la que se gestionan los recursos públicos.
+
+-   Obtención de información adecuada para orientar la toma de decisiones en la Universidad.
+
+-   Generación de información para la fijación de tasas y precios públicos de los servicios universitarios.
+
+-   Generación de información para facilitar el presupuesto y el control.
+
+-   Comparabilidad con otras universidades.
+
+Adicionalmente, el mencionado texto destaca que las Universidades requieren contar con información de costos para dos fines, en primer lugar, como instrumento de gestión interna, con el fin de ejercer control sobre los responsables de las diferentes actividades; en segundo lugar, como instrumento de información externa, esto es para demostrar la efectividad en el uso de los recursos puestos a su disposición (López Hernández, Carrasco Díaz, & otros, 2011). En este sentido, el libro blanco de los costes para universidad ha definido cuatro niveles de usuarios de la información de costos, los cuales se detallan a continuación (López Hernández, Carrasco Díaz, & otros, 2011):
+
+-   Nivel 1: Órganos de alta dirección de la Universidad, es decir rector, consejos universitarios.
+-   Nivel 2: Órganos de gestión funcional intermedia, decanos, directores de institutos, directores de departamentos.
+-   Nivel 3: Órganos de gestión funcional operativa, los cuales comprenden responsables de gestión de gastos, responsables económicos, servicios administrativos, etc.
+-   Nivel 4: Usuarios externos a la universidad como lo son el gobierno, las empresas privadas y la comunidad en general.

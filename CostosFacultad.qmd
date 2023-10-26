@@ -1,0 +1,86 @@
+# Costos a nivel de facultad
+
+A continuación, se establece la metodología que se aplica con el fin de determinar el costo por actividad misional a nivel de facultad al interior de las nueve sedes de la Universidad. 
+
+Para esta fase sirven como insumo las actividades adelantadas en la primera etapa del costeo ya que se parte de las estructuras de costos definidas para cada una de las sedes; adicionalmente, se requiere contar con información como lo es el Programa de Trabajo Académico – PTA detallados para cada una de las facultades, los costos inherentes al Programa Especial de Admisión y Movilidad Académica, en adelante PEAMA, el número de estudiantes por programa al interior de cada facultad, entre otra información que debe ser solicitada a las diferentes áreas de la Universidad.  
+
+## Desarrollo metodológico
+
+### Información inicial {.unnumbered}
+
+Para la determinación de los costos de cada facultad se debe partir de la base de datos denominada “Datos Originales”, la cual contiene información con atributos de sede, cuenta contable, valor asociado y agrupación del modelo, entre otros, información que es desarrollada durante la determinación de costos a nivel de sede. 
+
+Partiendo de “Datos Originales” se construye una segunda hoja de trabajo en la cual se presenta para la sede que se está trabajando los costos por agrupación para cada empresa, y dentro de la empresa por cada actividad misional. Adicionalmente se separan los Gastos de Personal por cada empresa, esta información también es extraída de la hoja Datos Originales.
+
+Posteriormente, se hace la distribución y el prorrateo de los costos de los Programas de Trabajo Académico - PTA en cada facultad. Para ello se toma la información remitida por la División Nacional de Personal Académico y Administrativo referente a los PTA de los docentes de Planta, Ocasionales y los PTA en otros estados.
+
+### Distribución de los costos del Nivel Nacional y Unimedios asignados a la sede y de los costos del Nivel Central de la Sede
+
+Las primeras distribuciones de costos que se realizan en el proceso corresponden a los costos del Nivel Central de la sede y los costos que han sido previamente asignados por el Nivel Nacional y Unimedios a cada una de las sedes. 
+
+El Nivel Central está compuesto por las áreas que adelantan actividades de gestión, dirección, administración y/o de coordinación necesarias para el cumplimiento de las actividades misionales de la sede y el correcto funcionamiento de las facultades y los programas curriculares. 
+
+Para el caso de las áreas de Nivel Central cuyas actividades se encuentren direccionadas hacia una actividad específica misional, dicha distribución se realizará en la misma actividad misional, como, por ejemplo, los costos de la UGI de Nivel Central serán distribuidos a las diferentes UGIs de cada facultad presente en la sede.
+
+El Nivel Central de las sedes se encuentra conformado por las siguientes empresas.
+
+![Empresas Nivel Central. Fuente: Elaboración propia](GraficosCostos/Graficas Metodologia de Costos-08.png "Empresas Nivel Central"){width="100%" fig-align="center"}
+
+Una vez se obtienen los costos de Nivel central y junto a los asignados del Nivel Nacional y UNIMEDIOS a nivel de sede, más los propios reconocidos en cada facultad, se procede a efectuar la distribución de los costos indirectos a nivel de facultad mediante los inductores referenciados en la Tabla 2.
+
+### Particularidades para la Distribución de costos a nivel de facultad
+
+#### Distribución de los costos de personal
+
+En las diferentes sedes que conforman la Universidad, se observa que las facultades se prestan diferentes tipos de servicios entre ellas. Uno de estos servicios corresponde a los cursos que son ofertados por una facultad para que sean tomados por estudiantes de otras facultades de la sede, en los programas académicos de pregrado y posgrado, esta temática en adelante se denomina “cursos cruzados”. 
+
+En el desarrollo del sistema de costos es necesario reconocer los costos generados en la prestación de estos servicios y trasladarlos a la facultad y al programa al cual pertenece el estudiante que efectivamente ha recibido el curso. 
+
+Este proceso corresponde con lo señalado en El Libro Blanco de los Costes, en el que se indica que cuando el elemento del costo (en este caso Costos de Personal Docente), no corresponde al centro de costo de la actividad que originó el servicio, se debe trasladar al centro de costo correspondiente de acuerdo con los criterios de reparto definidos (López Hernández, Carrasco Díaz, & otros, 2011), para el caso del Sistema de Costos de la Universidad Nacional con los inductores previamente definidos.
+
+Para realizar la distribución de los costos de los cursos cruzados entre las facultades de la Universidad, se efectúan dos procedimientos. El primero está basado en la información del Programa de trabajo académico, el cual se determinó por el valor que le correspondió a cada una de las facultades, únicamente en la agrupación denominada PTA. 
+
+Para esto es necesario tomar los cursos ofertados por cada facultad y de acuerdo con la información reportada por la Dirección Nacional de Información Académica, determinar a qué facultad pertenecen los estudiantes que toman el curso. Una vez se tiene esta información, se asigna el costo de acuerdo con la información del costo a nivel de asignatura reportada por la Dirección Nacional de Personal Académico y Administrativo.
+
+Para el segundo procedimiento, se determinó un porcentaje, el cual representa la relación que tiene una facultad con respecto a otra. El porcentaje fue aplicado a cada una de las facultades, en sus agrupaciones a excepción del PTA. Luego de la aplicación de los dos procedimientos, del porcentaje, se elaboraron dos cuadros resumen, los cuales contienen tanto la información de manera separada del PTA en pesos y el resultado de la aplicación del porcentaje total, obteniendo así el valor para cada una de las agrupaciones por facultad en pesos. Partiendo de la anterior información, se procedió a realizar las adiciones o disminuciones que le corresponde en pesos para cada una de las facultades, teniendo como control que la relación entre los costos que reciben y los costos que entregan en total las facultades deben generar como resultado una suma cero.
+
+Para posgrado se realiza el mismo procedimiento. En las sedes de presencia nacional no se realiza la distribución de los cursos cruzados, ya que no hay más de una facultad en cada sede.
+
+#### PEAMA
+
+El Programa Especial de Admisión y Movilidad Académica, en adelante PEAMA, es el programa Especial de la Universidad Nacional de Colombia dirigido a bachilleres de las zonas de presencia nacional, anteriormente denominadas zonas de frontera: Amazonía, Caribe, Orinoquia y Tumaco, este programa especial conoce las necesidades de la población, esmerándose por apoyar su permanencia académica. (Universidad Nacional de Colombia, 2023)
+
+De acuerdo con la información suministrada por la Dirección Nacional de Personal Académico y Administrativo en cada facultad se registra el costo de los servicios recibidos (sedes de presencia nacional) y el trasladado (sedes andinas), por concepto de Estímulos para docentes (Agrupación Bienestar) y Gastos de Viaje y Transporte.
+
+#### Hospital Universitario Nacional
+
+Mediante convenio, la Universidad le arrienda las instalaciones del Hospital a la Corporación Salud UN y la Corporación le cobra a la Universidad un monto por los estudiantes que hacen rotación en el Hospital. El valor del pago realizado por la Universidad debe ser asumido por los programas a los que pertenecen los estudiantes que hacen las rotaciones en el Hospital. Para esto se usa como inductor el número de estudiantes por programa.
+
+#### Investigación y Extensión Solidaria
+
+Partiendo del hecho de que las actividades de investigación son inherentes a la formación universitaria, es decir, que los procesos de investigación que se adelanten en las diferentes facultades impactarán los procesos formativos en pregrado y posgrado, se ha determinado calcular un costo para los diferentes niveles formativos que contemple lo relacionado con investigación y extensión solidaria. 
+
+De esta manera, se ha buscado y definido un factor (tabla 3), que permita hacer la distribución de los costos de investigación entre los diferentes niveles, reconociendo en cuales impacta en mayor o menor medida la investigación.
+
+Tabla 2. Factor para Distribución de los costos de Investigación
+
+Se entiende entonces, que la investigación impacta a la formación en doctorado 4 veces más que en pregrado, o la maestría y la especialidad 3 veces más que en pregrado. 
+
+Dicho factor, se multiplica por el número de estudiantes en cada nivel, la sumatoria de estos resultados permite generar el porcentaje de costo correspondiente a cada nivel. La extensión solidaria se distribuye con base en el número de estudiantes en los niveles de pregrado y posgrado. 
+
+#### Dirección Académica
+
+La Dirección académica de la sede Bogotá recibe costos del nivel central de la sede y del Nivel Nacional y UNIMEDIOS en las cuatro actividades misionales. Por lo anterior es necesario realizar la distribución de los costos de pregrado y posgrado, para ello se requiere contar con información sobre las actividades desarrolladas por la Dirección Académica, y la participación de las diferentes facultades en dichas actividades; esta información se solicita a la Dirección Académica desagregada por facultad y programa curricular.
+
+La distribución de los costos de pregrado acumulados en la Dirección se realiza con base en la información de las cátedras de sede ofertadas en los dos períodos académicos y las escuelas internacionales, de manera tal que se promedia el número de estudiantes de cada programa en los dos semestres obteniendo un porcentaje de participación. Con los porcentajes de participación de cada programa sobre el total se hace la distribución de los costos de la Dirección académica. En este sentido, es necesario también asignar a cada programa los costos recibidos de la dirección académica, para determinar el costo total. 
+
+Para la distribución de los costos de posgrados se usa como inductor el número de becarios de posgrado en los diferentes programas curriculares, de manera similar a lo realizado para la distribución de los costos de pregrado, se calcula el porcentaje de participación por programa (promediando los dos semestres), y con este porcentaje se distribuyen los costos propios y recibidos de posgrado.
+
+#### Costos unitarios por facultad
+
+Se deben calcular los costos unitarios por cada facultad para pregrado y posgrado, esto se hace tomando el costo total por facultad y dividiéndolo entre el número de estudiantes de cada facultad tanto para pregrado como para posgrado. Los costos unitarios también son calculados con el costo de pregrado y posgrado que tiene en cuenta la investigación y la extensión solidaria. Esto permite hacer análisis sobre el impacto que tiene en las diferentes facultades la investigación y extensión solidaria por estudiante, relacionándolo con la información que se tiene acerca de las facultades de la Universidad que más hacen investigación y las que menos lo hacen.
+
+Una vez en cada facultad se ha realizado la determinación de los costos propios de cada facultad, los costos asignados de nivel central de la sede, los costos asignados del nivel nacional y Unimedios, los costos indirectos distribuidos a nivel de facultad, los costos de PEAMA, Hospital Universitario Nacional (HUN), Cursos Cruzados, Dirección Académica (si aplica), se obtienen los costos totales por facultad distribuidos en las actividades misionales y por agrupación. En el siguiente acápite se abordarán los costos a nivel de programa curricular.
+
+
+

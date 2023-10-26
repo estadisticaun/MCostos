@@ -1,6 +1,22 @@
 body {
  /* font-family: cursive;*/
-  text-align: justify;
-/*  background-color: gray;*/
+ /* text-align: justify;*/
+ /* background-color: gray;*/
 }
+a {
+    color: steelblue;
+}
+h1 {
+    color: steelblue;
+    font-weight: 500;
+}
+h2 {
+    color: steelblue;
+    font-weight: 400;
+}
+p {
+    text-align: justify;
+}
+.link { color: steelblue; }
+.link:hover { color: darkgray; }
 

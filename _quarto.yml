@@ -3,30 +3,72 @@ project:
   output-dir: docs
 
 book:
-  title: "Modelo de Costos UNAL"
+  title: "Modelo de Costos Universidad Nacional de Colombia"
   subtitle: "Metodología de Cálculo"
   author: "Gerencia Nacional Financiera y Administrativa"
-  cover-image: Imagenes/Portada1.png
+  reader-mode: true
+  search: false
+  cover-image: 'Imagenes/Portada1.png'
+  favicon: 'Imagenes/Logotipo_UNAL.png'
+  page-footer:
+    left:
+      - text: "Modelo de Costos UNAL"
+    right:
+      - text: "Universidad Nacional de Colombia"
+        href: http://planeacion.unal.edu.co/home/
+  
   repo-url: https://github.com/estadisticaun/MCostos
   repo-branch: master
-  repo-actions: [edit]
+  #repo-actions: [edit]
   sharing: [twitter, facebook, linkedin]
   date: last-modified
   date-format: "MM-D-YYYY"
   chapters:
     - index.qmd
     - intro.qmd
-    - summary.qmd
+    - MarcoConceptual.qmd
+    - AntecedentesAplicacion.qmd
+    - AntecedentesUNAL.qmd
+    - Metodologia.qmd
+    - Memorando.qmd
+    - CostosSede.qmd
     - references.qmd
+  sidebar:
+    logo: 'Imagenes/Portada1.png'
+    
 
 bibliography: references.bib
+csl: apa.csl
 
 format:
   html:
-    theme: simplex
+    theme: yeti
+    linkcolor: steelblue
     css: style.css
+    citation_package: natbib
+    bibliographystyle: apalike 
   pdf:
     documentclass: scrreprt
+    toc: true
+    lof: true
+    number-sections: true
+    colorlinks: true
+    papersize: letter
+    geometry:
+      - top=25mm
+      - left=25mm
+      - right=25mm
+      - bottom=25mm
+    fig-format: png
+    crossref:
+      chapters: true
+      title-delim: "."    
+      fig-prefix: ""  
+      tbl-prefix: ""
+    #mainfont: Georgia
+    #linkcolor: steelblue
+    #urlcolor: steelblue
+    cover-image: 'Imagenes/Portada1.png'
 
 editor: visual
 
