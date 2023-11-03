@@ -9,14 +9,47 @@ a {
 h1 {
     color: steelblue;
     font-weight: 500;
+    font-size: xx-large;
 }
 h2 {
     color: steelblue;
     font-weight: 400;
+    font-size: x-large;
+}
+h3 {
+    color: steelblue;
+    font-weight: 400;
+    font-size: large;
+}
+h4 {
+    color: steelblue;
+    font-weight: 400;
+    font-size: medium;
 }
 p {
     text-align: justify;
 }
+
 .link { color: steelblue; }
 .link:hover { color: darkgray; }
+
+.div.quarto-figure {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-fluid.figure-img {
+    width: 60%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-fluid.figure-img img {
+    max-width: 100%;
+    max-height: 100%;
+}
 

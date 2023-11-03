@@ -1,10 +1,11 @@
 # Memorando de distribución de costos
 
-Para el cierre contable de cada vigencia, se elabora el memorando de distribución de costos, el cual tiene como fin realizar la reclasificación de los gastos y/o costos por concepto de Internet, Intangibles, suscripciones y afiliaciones, seguros y cuota de fiscalización registrados en su totalidad en el Nivel Nacional cuyos beneficiarios o usuarios son todas las sedes y/o unidades especiales, los cuales se distribuirán con base en los inductores determinados a la fecha.
+Para el cierre contable de cada vigencia, se elabora el memorando de distribución de costos, el cual tiene como fin realizar la reclasificación de los gastos y/o costos por concepto de Internet, Intangibles, suscripciones y afiliaciones, seguros y cuota de fiscalización registrados en su totalidad en el Nivel Nacional cuyos beneficiarios o usuarios son todas las sedes y/o unidades especiales, los cuales se distribuirán con base en los inductores determinados a la fecha. 
+
 El mencionado memorando lo emite el Área Gestión Estratégica Contable de acuerdo con las distribuciones realizadas por el Sistema de costos de la Universidad, para su elaboración se requiere solicitar información a otras áreas, como la siguiente:
 
-*	A la Dirección Nacional de Planeación y Estadística se solicita la información correspondiente al número de estudiantes de pregrado y posgrado.
+-   A la Dirección Nacional de Planeación y Estadística se solicita la información correspondiente al número de estudiantes de pregrado y posgrado.
 
-*	A la Dirección Nacional de Estrategia Digital - DNED, se solicita información relativa a los costos de la RED WAN y canales de internet y demás costos susceptibles de ser asignados a las diferentes sedes de la Universidad.
+-   A la Dirección Nacional de Estrategia Digital - DNED, se solicita información relativa a los costos de la RED WAN y canales de internet y demás costos susceptibles de ser asignados a las diferentes sedes de la Universidad.
 
-De acuerdo con la información remitida y con base en los inductores previamente establecidos se realizan las distribuciones de costos reconocidos en el Nivel Nacional entre las diferentes sedes, unidades especiales, y el nivel nacional. 
+De acuerdo con la información remitida y con base en los inductores previamente establecidos se realizan las distribuciones de costos reconocidos en el Nivel Nacional entre las diferentes sedes, unidades especiales, y el nivel nacional.

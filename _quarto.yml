@@ -32,21 +32,26 @@ book:
     - Metodologia.qmd
     - Memorando.qmd
     - CostosSede.qmd
+    - CostosFacultad.qmd
+    - CostosPrograma.qmd
     - references.qmd
   sidebar:
     logo: 'Imagenes/Portada1.png'
     
 
 bibliography: references.bib
-csl: apa.csl
 
 format:
   html:
     theme: yeti
     linkcolor: steelblue
-    css: style.css
-    citation_package: natbib
-    bibliographystyle: apalike 
+    fontsize: 1em
+    css: "style.css"
+    include-in-header:
+      - file: style.html
+    cite-method: citeproc
+    biblio-style: apalike 
+    #csl: apa.csl
   pdf:
     documentclass: scrreprt
     toc: true
@@ -69,6 +74,9 @@ format:
     #linkcolor: steelblue
     #urlcolor: steelblue
     cover-image: 'Imagenes/Portada1.png'
+    cite-method: citeproc
+    biblio-style: apalike 
+    #csl: apa.csl
 
 editor: visual
 

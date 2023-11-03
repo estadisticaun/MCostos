@@ -2,21 +2,21 @@
 
 ## Fuentes de información
 
-* DINARA - Sistema de Información Académica
+-   DINARA - Sistema de Información Académica
 
 Para el caso de los cursos prestados entre facultades de la Universidad, se ha definido que la herramienta que permite realizar los cruces de información, para determinar a qué facultad pertenecen los estudiantes que tomaron determinado curso es el SIA (Sistema de Información Académica); para lo cual se solicita a la Dirección Nacional de Información Académica, Registro y Matrícula (DINARA), un reporte de los cursos en el año por cada sede.
 
 Esta base de datos, nos permite identificar la facultad que ofrece un determinado curso, la facultad con la cual está vinculado el docente que imparte la asignatura y, por último, la facultad y programa curricular a los cuales pertenece el estudiante.
 
-* Programas de trabajo académico 
+-   Programas de trabajo académico
 
 La segunda fuente de información es el Programa de Trabajo Académico diligenciado por los docentes. De acuerdo con los porcentajes de tiempo dedicado a una actividad, según lo señalado por el docente, la Dirección Nacional de Personal Académico y Administrativo asigna el costo a dicha actividad. Esto permite tener un costo por asignatura.
 
-* Estadísticas estudiantes
+-   Estadísticas estudiantes
 
 Finalmente, a la Dirección Nacional de Planeación y Estadística se solicita la información relativa al número de estudiantes en cada uno de los programas académicos de pregrado y posgrado para los dos períodos académicos de cada año.
 
-* Uso de laboratorios y costo de los equipos
+-   Uso de laboratorios y costo de los equipos
 
 Para la distribución de la agrupación Materiales, suministros e insumos, se requiere información del uso de los laboratorios de las facultades por los diferentes programas curriculares de pregrado y posgrado (ya que no es uniforme la distribución de los tiempos) y el costo de los equipos que se utilizan en los mismos, más adelante se detallará como se construye esta información (numeral 9.2) y las fuentes para la misma.
 
@@ -32,25 +32,25 @@ En el mismo archivo en el cual se consolida la información de los dos semestres
 
 ### Determinar el costo de la asignatura de acuerdo con los datos del PTA
 
-Se debe realizar el cruce de información entre las bases de datos del SIA y la entregada en el PTA; a través del código de la asignatura es posible realizar dicho cruce de información y determinar el costo de la nómina docente por estudiante en cada asignatura (costo unitario). 
+Se debe realizar el cruce de información entre las bases de datos del SIA y la entregada en el PTA; a través del código de la asignatura es posible realizar dicho cruce de información y determinar el costo de la nómina docente por estudiante en cada asignatura (costo unitario).
 
 Para esto se construye una tabla dinámica con la información del SIA, esta tabla debe contener la facultad de la asignatura, el nivel (pregrado o posgrado), el nombre de la asignatura, el código de la misma y el número de estudiantes por programa curricular que cursaron dicha asignatura.
 
-Con esta tabla se realiza el cruce por código de la asignatura con la información de los Programas de Trabajo Académico por sede, determinando así el costo de cada asignatura y el costo que debe ser trasladado a otros programas curriculares de acuerdo con el número de estudiantes que la tomaron y las facultades a las que pertenecen (cursos cruzados). 
+Con esta tabla se realiza el cruce por código de la asignatura con la información de los Programas de Trabajo Académico por sede, determinando así el costo de cada asignatura y el costo que debe ser trasladado a otros programas curriculares de acuerdo con el número de estudiantes que la tomaron y las facultades a las que pertenecen (cursos cruzados).
 
-Se debe tener en cuenta que en cada facultad fue necesario ajustar los resultados entregados por la Dirección Nacional de Personal Académico y Administrativo, dado el valor de PTA en estados diferentes a aprobados, las casillas sin información, la diferencia con el saldo contable, y la necesidad de distribuir los siete ítems del PTA a las cuatro actividades misionales de la Universidad. 
+Se debe tener en cuenta que en cada facultad fue necesario ajustar los resultados entregados por la Dirección Nacional de Personal Académico y Administrativo, dado el valor de PTA en estados diferentes a aprobados, las casillas sin información, la diferencia con el saldo contable, y la necesidad de distribuir los siete ítems del PTA a las cuatro actividades misionales de la Universidad.
 
 Por lo anterior, es necesario multiplicar el costo unitario obtenido previamente por el porcentaje de ajuste que recoge la diferencia entre los costos originales del PTA y la distribución realizada en las cuatro actividades misionales para cada facultad a nivel de pregrado y posgrado.
 
-### Otras actividades docentes	
+### Otras actividades docentes
 
-Finalmente, según el Acuerdo 027 de 2012 las Otras Actividades Docentes contempla “la preparación de material didáctico, la dirección y evaluación de trabajos de grado, de trabajos finales, de proyectos de tesis y de tesis, la participación como conferencista en otros cursos autorizados o como jurado en exámenes de calificación y el acompañamiento a estudiantes”. 
+Finalmente, según el Acuerdo 027 de 2012 las Otras Actividades Docentes contempla "la preparación de material didáctico, la dirección y evaluación de trabajos de grado, de trabajos finales, de proyectos de tesis y de tesis, la participación como conferencista en otros cursos autorizados o como jurado en exámenes de calificación y el acompañamiento a estudiantes".
 
 Actualmente, la Dirección Nacional de Personal Académico y Administrativo suministra el costo total de las Otras Actividades Docentes en pregrado y posgrado por facultad, separando lo correspondiente a docentes de planta, ocasionales y/o especiales.
 
 De la información generada por el SIA es posible identificar los estudiantes que cursan opción de grado, la facultad y el programa al que pertenecen y el tipo de opción de grado inscrito; con esta información y tomando como insumo los factores relacionados en la Tabla 2 - Factor para distribución de los costos de la investigación, usados también para la distribución de los costos de investigación y extensión, se procede a distribuir el costo de las Otras Actividades Docentes.
 
-El uso de los factores mencionados se hace con el fin de reconocer el impacto que tiene dentro del tiempo laboral de los docentes la dirección de trabajos de grado en diferentes niveles. 
+El uso de los factores mencionados se hace con el fin de reconocer el impacto que tiene dentro del tiempo laboral de los docentes la dirección de trabajos de grado en diferentes niveles.
 
 Una vez obtenido el valor correspondiente a cada programa por las Otras Actividades Docentes, este se suma con el valor que corresponde al programa de la actividad docente presencial hallado en el numeral anterior. Este resultado corresponde al costo de PTA de cada programa.
 
@@ -58,18 +58,18 @@ Una vez obtenido el valor correspondiente a cada programa por las Otras Activida
 
 Paralelamente a la distribución de los cursos cruzados, se solicita a cada una de las facultades que diligencien una matriz con el porcentaje de uso de los laboratorios por parte de los estudiantes de pregrado y posgrado durante la vigencia, con el fin de distribuir los costos de la agrupación de Materiales, Suministros e Insumos por programa curricular. La matriz se encuentra discriminada por las siguientes columnas:
 
-*	Departamento de la facultad al cual pertenece el laboratorio
-*	Nombre del laboratorio
-*	Tipo de dedicación: docencia, investigación y/o extensión
-*	Facultad a la que se encuentra asociado el laboratorio
-*	Tipo de programa: Pregrado, especialidad, especialización, maestría o doctorado
-*	Nombre del programa que usa el laboratorio 
-*	Porcentaje de uso
-*	Total, porcentaje por laboratorio, este debe sumar 100% 
+-   Departamento de la facultad al cual pertenece el laboratorio
+-   Nombre del laboratorio
+-   Tipo de dedicación: docencia, investigación y/o extensión
+-   Facultad a la que se encuentra asociado el laboratorio
+-   Tipo de programa: Pregrado, especialidad, especialización, maestría o doctorado
+-   Nombre del programa que usa el laboratorio
+-   Porcentaje de uso
+-   Total, porcentaje por laboratorio, este debe sumar 100%
 
 Una vez las facultades remiten esta información, se procede con la asignación de los costos de los equipos por cada uno de los laboratorios para la actividad misional de docencia, el costo de los equipos y el porcentaje de dedicación de docencia es extraído de la información enviada por la Dirección Nacional de Investigación y Laboratorios. Tras asignar los costos de los equipos a cada laboratorio, se multiplica el resultado por el porcentaje de dedicación a la actividad de docencia y se multiplica el valor final asignado por el porcentaje de uso por cada programa curricular en cada laboratorio. Posteriormente se realiza una tabla resumen que agrupe el valor total asignado de los equipos en docencia para cada programa curricular, determinando: i) el porcentaje de participación de los programas sobre el valor total, y ii) los programas que usan los laboratorios y pertenecen a otra facultad.
 
-Finalmente, este porcentaje de participación es útil para asignar los costos de la agrupación de Materiales, Suministros e Insumos a cada uno de los programas curriculares de la facultad que corresponda, en el caso de existir servicios cruzados del uso de los laboratorios, el costo correspondiente de la agrupación es disminuido en la facultad que presta el servicio y es incrementado a cada uno de los programas curriculares de la facultad que los toma, por ejemplo, se detecta que los estudiantes del programa curricular en Enfermería tuvieron el 10% de uso de los laboratorios de la Facultad de Medicina, por lo cual se procede a disminuir el monto correspondiente al 10% de Materiales, Suministros e Insumos de la Facultad de Medicina y este mismo monto se le asigna a la misma agrupación al programa de Enfermería. 
+Finalmente, este porcentaje de participación es útil para asignar los costos de la agrupación de Materiales, Suministros e Insumos a cada uno de los programas curriculares de la facultad que corresponda, en el caso de existir servicios cruzados del uso de los laboratorios, el costo correspondiente de la agrupación es disminuido en la facultad que presta el servicio y es incrementado a cada uno de los programas curriculares de la facultad que los toma, por ejemplo, se detecta que los estudiantes del programa curricular en Enfermería tuvieron el 10% de uso de los laboratorios de la Facultad de Medicina, por lo cual se procede a disminuir el monto correspondiente al 10% de Materiales, Suministros e Insumos de la Facultad de Medicina y este mismo monto se le asigna a la misma agrupación al programa de Enfermería.
 
 ## Distribución contratistas por programa curricular
 
@@ -77,10 +77,99 @@ Al inicio de cada año se solicita a las facultades de las sedes andinas el núm
 
 ## Inductores
 
-Considerando la información preliminar del modelo aplicado a nivel facultad y con base en los criterios evaluados por el equipo de trabajo; para efectos de realizar la asignación de costos por programa curricular, se decidió que los siguientes inductores son adecuados en la asignación de costos: 
+Considerando la información preliminar del modelo aplicado a nivel facultad y con base en los criterios evaluados por el equipo de trabajo; para efectos de realizar la asignación de costos por programa curricular, se decidió que los siguientes inductores son adecuados en la asignación de costos:
 
-Tabla 3.
+*Tabla 3. Inductores distribución programa curricular*
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+tabla3 <- data.frame(
+  AGRUPACIONES = c(
+    "ASEO, CAFETERIA Y VIGILANCIA",
+    "BIENESTAR",
+    "GASTOS DE PERSONAL ADMINSTRATIVO",
+    "GASTOS DE PERSONAL - PTA REMUNRACION DOCENTE",
+    "GASTOS DE VIAJE Y TRANSPORTE",
+    "GESTION DE BIENES",
+    "IMPUESTOS, TASAS Y CONTRIBUCIONES",
+    "MATERIALES, SUMINISTROS E INSUMOS",
+    "SERVICIOS CONTRATADOS",
+    "SERVICIOS PUBLICOS",
+    "OTROS COSTOS"
+  ),
+  INDUCTORES = c(
+    "Número de estudiantes por programa",
+    "Número de estudiantes por programa",
+    "Promedio PTA y Número de estudiantes",
+    "Cursos Cruzados",
+    "Número de estudiantes por programa",
+    "Promedio: % de Uso Laboratorios & Número de estudiantes por programa",
+    "PTA por programa",
+    "% de uso de Laboratorios",
+    "No. contratistas",
+    "Número de estudiantes por programa",
+    "Promedio PTA y Número de estudiantes por programa"
+  )
+)
+```
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+library(gt)
+
+gt_tbl3 <- gt(tabla3)
+gt_tbl3
+```
+
+La distribución de los costos por programa de las agrupaciones de PTA, Materiales, Suministros e Insumos y Servicios Contratados ya se explicaron en los numerales anteriores. Las agrupaciones de Aseo, Cafetería y Vigilancia, Bienestar y Servicios Públicos se distribuyen así en cada facultad:
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+tabla3.1 <- data.frame(
+  PREGRADO = c(
+    "No. de estudiantes del programa de pregrado",
+    "=% participación por programa",
+    "Total estudiantes de pregrado"
+  ),
+  POSGRADO = c(
+    "No. de estudiantes del programa de posgrado",
+    "=% participación por programa",
+    "Total estudiantes de posgrado"
+  )
+)
+
+gt_tbl3.1 <- gt(tabla3.1)
+gt_tbl3.1
+```
+
+El porcentaje de participación de los estudiantes de cada programa de pregrado o posgrado es multiplicado por los costos de las agrupaciones de Aseo, Cafetería y Vigilancia, Bienestar y Servicios Públicos, el costo resultante es el asignado a cada programa en la agrupación correspondiente.
+
+La distribución de los costos de las agrupaciones de Gastos de Personal Administrativo y Otros Costos se realiza con el inductor mixto del promedio entre el PTA y el número de estudiantes, el inductor se determina de la siguiente manera: 
+Tabla 3.2
+
+El porcentaje de participación del inductor mixto para cada programa de pregrado o posgrado es multiplicado por los costos de las agrupaciones de Gastos de Personal Administrativo y Otros Costos, el costo resultante es el asignado a cada programa en la agrupación correspondiente.
+
+En el caso de la agrupación de Gestión de Bienes, el inductor para distribuir el costo de Gestión de Bienes por programa curricular se determina de la siguiente manera:
+
+Tabla 3.3
+
+El porcentaje de participación de cada programa es multiplicado por los costos de Gestión de Bienes, dando como resultado el costo de la agrupación por programa curricular.
+
+Finalmente, la distribución de la agrupación de Impuestos, Tasas y Contribuciones se distribuye a cada programa curricular así:
+
+Tabla 3.4
+
+Con la distribución de los costos por agrupación con cada uno de los inductores se determina el costo por programa curricular, tal y como se explicó anteriormente.
 
 ## Costos unitarios por programa curricular
-Se deben calcular los costos unitarios por cada programa para pregrado y posgrado, esto se hace tomando el costo total por programa y dividiéndolo entre el número de estudiantes de cada programa tanto para pregrado como para posgrado. Es importante precisar que el modelo, al tener una periodicidad anual, toma el promedio de los estudiantes inscritos en los dos semestres contemplados en la vigencia. Adicionalmente, los datos de número de estudiantes son suministrados en un reporte emitido por la Dirección Nacional de Planeación y Estadística – DNPE, aclarando que las cifras se presentan con una fecha de corte y que son susceptibles a cambios por situaciones posteriores.
- 
+
+Se deben calcular los costos unitarios por cada programa para pregrado y posgrado, esto se hace tomando el costo total por programa y dividiéndolo entre el número de estudiantes de cada programa tanto para pregrado como para posgrado. Es importante precisar que el modelo, al tener una periodicidad anual, toma el promedio de los estudiantes inscritos en los dos semestres contemplados en la vigencia. Adicionalmente, los datos de número de estudiantes son suministrados en un reporte emitido por la Dirección Nacional de Planeación y Estadística -- DNPE, aclarando que las cifras se presentan con una fecha de corte y que son susceptibles a cambios por situaciones posteriores. 
