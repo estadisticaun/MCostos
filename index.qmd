@@ -1,5 +1,9 @@
 # Prefacio {.unnumbered}
 
->Este documento contiene los elementos centrales de la metodología empleada en la Universidad Nacional de Colombia para la consolidación de los costos resultantes del cumplimiento de la misión institucional.
+> Este documento contiene los elementos centrales de la metodología empleada en la Universidad Nacional de Colombia para la consolidación de los costos resultantes del cumplimiento de la misión institucional.
 
->A través de esta metodología, entre otros aspectos, los interesados podrán conocer los principales factores/agrupaciones generadores de costos, así como la forma en la que éstos participan en los costeos a nivel de sedes, facultades y programas académicos. Invitamos a los lectores a explorar y conocer esta propuesta metodológica.
+> A través de esta metodología, entre otros aspectos, los interesados podrán conocer los principales factores/agrupaciones generadores de costos, así como la forma en la que éstos participan en los costeos a nivel de sedes, facultades y programas académicos. Invitamos a los lectores a explorar y conocer esta propuesta metodológica.
+
+<a href="https://github.com/estadisticaun/MCostos/blob/main/docs/Modelo-de-Costos-Universidad-Nacional-de-Colombia.pdf" target="_blank">
+  <button type="button" class="btn btn-outline-primary">Descarga el PDF</button>
+</a>

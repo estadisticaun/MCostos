@@ -26,7 +26,7 @@ El Nivel Central de las sedes se encuentra conformado por las siguientes empresa
 
 ![Empresas Nivel Central. Fuente: Elaboración propia](IlustracionesCostos/ilustracion9.png "Empresas Nivel Central"){width="70%" fig-align="center"}
 
-Una vez se obtienen los costos de Nivel central y junto a los asignados del Nivel Nacional y UNIMEDIOS a nivel de sede, más los propios reconocidos en cada facultad, se procede a efectuar la distribución de los costos indirectos a nivel de facultad mediante los inductores referenciados en la Tabla 2.
+Una vez se obtienen los costos de Nivel central y junto a los asignados del Nivel Nacional y UNIMEDIOS a nivel de sede, más los propios reconocidos en cada facultad, se procede a efectuar la distribución de los costos indirectos a nivel de facultad mediante los inductores referenciados en la @tbl-factor.
 
 ### Particularidades para la Distribución de costos a nivel de facultad
 
@@ -36,7 +36,7 @@ En las diferentes sedes que conforman la Universidad, se observa que las faculta
 
 En el desarrollo del sistema de costos es necesario reconocer los costos generados en la prestación de estos servicios y trasladarlos a la facultad y al programa al cual pertenece el estudiante que efectivamente ha recibido el curso.
 
-Este proceso corresponde con lo señalado en El Libro Blanco de los Costes, en el que se indica que cuando el elemento del costo (en este caso Costos de Personal Docente), no corresponde al centro de costo de la actividad que originó el servicio, se debe trasladar al centro de costo correspondiente de acuerdo con los criterios de reparto definidos (López Hernández, Carrasco Díaz, & otros, 2011) [@LopezCarrasco], para el caso del Sistema de Costos de la Universidad Nacional con los inductores previamente definidos.
+Este proceso corresponde con lo señalado en El Libro Blanco de los Costes, en el que se indica que cuando el elemento del costo (en este caso Costos de Personal Docente), no corresponde al centro de costo de la actividad que originó el servicio, se debe trasladar al centro de costo correspondiente de acuerdo con los criterios de reparto definidos [@LopezCarrasco], para el caso del Sistema de Costos de la Universidad Nacional con los inductores previamente definidos.
 
 Para realizar la distribución de los costos de los cursos cruzados entre las facultades de la Universidad, se efectúan dos procedimientos. El primero está basado en la información del Programa de trabajo académico, el cual se determinó por el valor que le correspondió a cada una de las facultades, únicamente en la agrupación denominada PTA.
 
@@ -48,7 +48,7 @@ Para posgrado se realiza el mismo procedimiento. En las sedes de presencia nacio
 
 #### PEAMA
 
-El Programa Especial de Admisión y Movilidad Académica, en adelante PEAMA, es el programa Especial de la Universidad Nacional de Colombia dirigido a bachilleres de las zonas de presencia nacional, anteriormente denominadas zonas de frontera: Amazonía, Caribe, Orinoquia y Tumaco, este programa especial conoce las necesidades de la población, esmerándose por apoyar su permanencia académica. (Universidad Nacional de Colombia, 2023) [@UNALBienestar]
+El Programa Especial de Admisión y Movilidad Académica, en adelante PEAMA, es el programa Especial de la Universidad Nacional de Colombia dirigido a bachilleres de las zonas de presencia nacional, anteriormente denominadas zonas de frontera: Amazonía, Caribe, Orinoquia y Tumaco, este programa especial conoce las necesidades de la población, esmerándose por apoyar su permanencia académica. [@UNALIngenieria].
 
 De acuerdo con la información suministrada por la Dirección Nacional de Personal Académico y Administrativo en cada facultad se registra el costo de los servicios recibidos (sedes de presencia nacional) y el trasladado (sedes andinas), por concepto de Estímulos para docentes (Agrupación Bienestar) y Gastos de Viaje y Transporte.
 
@@ -60,30 +60,17 @@ Mediante convenio, la Universidad le arrienda las instalaciones del Hospital a l
 
 Partiendo del hecho de que las actividades de investigación son inherentes a la formación universitaria, es decir, que los procesos de investigación que se adelanten en las diferentes facultades impactarán los procesos formativos en pregrado y posgrado, se ha determinado calcular un costo para los diferentes niveles formativos que contemple lo relacionado con investigación y extensión solidaria.
 
-De esta manera, se ha buscado y definido un factor (tabla 3), que permita hacer la distribución de los costos de investigación entre los diferentes niveles, reconociendo en cuales impacta en mayor o menor medida la investigación.
+De esta manera, se ha buscado y definido un factor (@tbl-factor), que permita hacer la distribución de los costos de investigación entre los diferentes niveles, reconociendo en cuales impacta en mayor o menor medida la investigación.
 
-*Tabla 2. Factor para Distribución de los costos de Investigación*
+| NIVEL           | FACTOR |
+|-----------------|--------|
+| Pregrado        | 1,0    |
+| Especialización | 1,5    |
+| Maestría        | 3,0    |
+| Especialidad    | 3,0    |
+| Doctorado       | 4,0    |
 
-```{r}
-#| echo: false
-#| warning: false
-#| message: false
-
-tabla2 <- data.frame(NIVEL=c("Pregrado","Especialización",
-                             "Maestría","Especialidad","Doctorado"),
-                     FACTOR=c("1,0","1,5","3,0","3,0","4,0"))
-```
-
-```{r}
-#| echo: false
-#| warning: false
-#| message: false
-
-library(gt)
-
-gt_tbl2 <- gt(tabla2)
-gt_tbl2
-```
+: Factor para Distribución de los costos de Investigación {#tbl-factor}
 
 Se entiende entonces, que la investigación impacta a la formación en doctorado 4 veces más que en pregrado, o la maestría y la especialidad 3 veces más que en pregrado.
 

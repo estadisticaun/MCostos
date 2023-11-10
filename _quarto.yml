@@ -71,7 +71,6 @@ format:
       fig-prefix: ""  
       tbl-prefix: ""
     #mainfont: Georgia
-    #linkcolor: steelblue
     #urlcolor: steelblue
     cover-image: 'Imagenes/Portada1.png'
     cite-method: citeproc

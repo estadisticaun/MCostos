@@ -22,9 +22,9 @@ Las exclusiones que se realizan deben ser controladas con el fin de que se tenga
 
 Dentro de la información contable de cierre de vigencia correspondiente a la unidad de gestión Nivel Nacional se encuentran incluidos dos centros de costos o dependencias que ejecutan proyectos independientes del objeto misional de la Universidad como lo son Admisiones y Fondo Pensional.
 
-En primer lugar, la dependencia de Admisiones "tiene como misión evaluar y seleccionar a los aspirantes a ingresar a la Universidad, con principios de equidad, transparencia y mérito académico, mediante el diseño y aplicación de pruebas objetivas, acordes con el estado del arte en evaluación; así como analizar y difundir los resultados con el propósito de contribuir al enriquecimiento del capital académico del país". (Admisiones Universidad Nacional de Colombia, 2023)[@AdmisionesUNAL]
+En primer lugar, la dependencia de Admisiones "tiene como misión evaluar y seleccionar a los aspirantes a ingresar a la Universidad, con principios de equidad, transparencia y mérito académico, mediante el diseño y aplicación de pruebas objetivas, acordes con el estado del arte en evaluación; así como analizar y difundir los resultados con el propósito de contribuir al enriquecimiento del capital académico del país". [@AdmisionesUNAL].
 
-Del mismo modo, la Universidad mediante Acuerdo 009 de 2010 del Consejo Superior Universitario liquidó la Caja de Previsión Social a partir del 30 de junio de 2010, y constituyo el Fondo Pensional U.N. como una cuenta especial sin personería jurídica, adscrito a la Rectoría, con organización propia y administración de sus recursos de manera independiente cuyo objeto es el reconocimiento y pago de obligaciones pensionales." (Universidad Nacional de Colombia, 2023)[@UNALLegal]. Los pagos de personal del Fondo pensional son asumidos por el Nivel Nacional de la Universidad, dado que según la normativa los recursos del Fondo Pensional tienen destinación específica y no pueden ser utilizados para pagar nóminas de administración del Fondo. 
+Del mismo modo, la Universidad mediante Acuerdo 009 de 2010 del Consejo Superior Universitario liquidó la Caja de Previsión Social a partir del 30 de junio de 2010, y constituyo el Fondo Pensional U.N. como una cuenta especial sin personería jurídica, adscrito a la Rectoría, con organización propia y administración de sus recursos de manera independiente cuyo objeto es el reconocimiento y pago de obligaciones pensionales." [@UNALLegal]. Los pagos de personal del Fondo pensional son asumidos por el Nivel Nacional de la Universidad, dado que según la normativa los recursos del Fondo Pensional tienen destinación específica y no pueden ser utilizados para pagar nóminas de administración del Fondo.
 
 Los costos de los proyectos ejecutados por el Nivel Nacional correspondientes a las mencionadas dependencias deben excluirse del modelo, ya que por su naturaleza no deben cargarse al costo a distribuir dentro de los cuatro objetos de costo determinados para el modelo.
 
@@ -70,10 +70,10 @@ Tomando en cuenta que para el modelo de costos se han definido cuatro objetos de
 
 Para lo anterior, se distribuyen los costos de: actividad académico administrativa, formación y actualización, otros, situaciones especiales y otras actividades, entre las demás actividades de manera proporcional, dado que las primeras se derivan de las actividades misionales de la Universidad, de forma tal que finalmente el total del costo de personal este distribuido tan solo en las siguientes actividades por sede:
 
-  *   Actividad docente presencial y otras actividades docentes -- Pregrado.
-  *   Actividad docente presencial y otras actividades docentes -- Posgrado.
-  *   Proyectos de Creación / Investigación.
-  *   Proyectos de Extensión.
+-   Actividad docente presencial y otras actividades docentes -- Pregrado.
+-   Actividad docente presencial y otras actividades docentes -- Posgrado.
+-   Proyectos de Creación / Investigación.
+-   Proyectos de Extensión.
 
 ![Distribución Información PTA a Actividades Misionales. Fuente: Elaboración propia](IlustracionesCostos/ilustracion5.png "Distribución Información PTA a Actividades Misionales"){width="70%" fig-align="center"}
 
@@ -91,7 +91,7 @@ De acuerdo con la normativa contable la universidad reconoce en las cuentas de c
 
 Sin embargo, se presentan erogaciones para las cuales no es fácil identificar a cuál de las cuatro actividades misionales de la Universidad corresponden, dado que por su naturaleza afectarían todas o a algunas de las mismas, en estos casos los reconocimientos contables se realizan en su totalidad en las cuentas de costos de pregrado. Ejemplo de esta circunstancia son los costos de la nómina de docentes, dado que cuando la información llega a las áreas financieras para su reconocimiento, la misma no se encuentra discriminada entre pregrado, posgrado, investigación y extensión.
 
-Con base en lo anterior, los costos reconocidos contablemente en las actividades misionales de posgrado, investigación y extensión se tomarán como costos directos y no serán objeto de ninguna distribución; y los costos reconocidos contablemente en las cuentas de costos de pregrado se distribuyen en las cuatro actividades misionales de la Universidad, tomando como inductores los definidos previamente en el presente documento. (Ver Tabla 2).
+Con base en lo anterior, los costos reconocidos contablemente en las actividades misionales de posgrado, investigación y extensión se tomarán como costos directos y no serán objeto de ninguna distribución; y los costos reconocidos contablemente en las cuentas de costos de pregrado se distribuyen en las cuatro actividades misionales de la Universidad, tomando como inductores los definidos previamente en el presente documento. (Ver @tbl-Inductores).
 
 ![Distribución costos de pregrado a demás actividades misionales. Fuente: Elaboración propia](IlustracionesCostos/ilustracion6.png "Distribución costos de pregrado a demás actividades misionales"){width="70%" fig-align="center"}
 
@@ -99,9 +99,9 @@ Con base en lo anterior, los costos reconocidos contablemente en las actividades
 
 Corresponde a los costos del Nivel Nacional y Unimedios que son asignados a las nueve sedes y unidades especiales, esta distribución se hace teniendo en cuenta que las áreas del nivel nacional como la rectoría, vicerrectorías, la dirección de personal académico y administrativo, la dirección de programas de posgrado, la Gerencia Nacional Financiera y Administrativa, Planeación Nacional, Dirección Jurídica Nacional, entre otras, ejecutan actividades de gestión, dirección, administración y/o de coordinación necesarias para el cumplimiento de las actividades misionales de la Universidad y el correcto funcionamiento de las facultades y los programas curriculares; así mismo, Unimedios hace labores de divulgación de las actividades misionales, por lo que estos costos se distribuyen a las sedes, y unidades especiales, los cuales, en el caso de las sedes, se asignarán posteriormente a las facultades con base en los inductores determinados para tal fin.
 
-Para esta distribución se definieron nuevos inductores de costos, toda vez que no es posible usar inductores como número de estudiantes, o número de docentes ya que en el Nivel Nacional y en Unimedios no se encuentran estas figuras, por lo que se han definido usar los porcentajes de asignación relacionados en la Tabla 2.
+Para esta distribución se definieron nuevos inductores de costos, toda vez que no es posible usar inductores como número de estudiantes, o número de docentes ya que en el Nivel Nacional y en Unimedios no se encuentran estas figuras, por lo que se han definido usar los porcentajes de asignación relacionados en la @tbl-Inductores.
 
-Para la distribución de los costos del Nivel Nacional se toman los costos totales de dicha unidad de gestión por cada una de las agrupaciones y se dividen entre la suma de los costos y gastos totales de las sedes, Unimedios, Unisalud, Editorial Fondo Pensional, y Regalías. 
+Para la distribución de los costos del Nivel Nacional se toman los costos totales de dicha unidad de gestión por cada una de las agrupaciones y se dividen entre la suma de los costos y gastos totales de las sedes, Unimedios, Unisalud, Editorial Fondo Pensional, y Regalías.
 
 Para el caso del Fondo Pensional, en atención a la normatividad especial que lo reglamenta, el Nivel Nacional asume los gastos de personal y gastos generales que requiere el fondo para su funcionamiento, sin embargo, estos gastos se deben trasladar del Nivel Nacional a los costos propios del Fondo Pensional, para así determinar los costos a asignar por los servicios prestados por el Nivel Nacional.
 
@@ -117,7 +117,7 @@ Del total de los costos reconocidos en la contabilidad de la Universidad se excl
 
 ### Asignación de costos indirectos de las sedes a actividades misionales
 
-El último paso en el proceso de construcción del modelo de costos a nivel de sede es la distribución de los costos indirectos reconocidos contablemente en cada una de las sedes, a los costos misionales de las mismas estos costos indirectos son aquellos catalogados como "otros costos y gastos". Para ello, se usan los mismos inductores definidos para la distribución de los costos de pregrado (Tabla 2).
+El último paso en el proceso de construcción del modelo de costos a nivel de sede es la distribución de los costos indirectos reconocidos contablemente en cada una de las sedes, a los costos misionales de las mismas estos costos indirectos son aquellos catalogados como "otros costos y gastos". Para ello, se usan los mismos inductores definidos para la distribución de los costos de pregrado (@tbl-Inductores).
 
 ![Distribución de Costos Indirectos a Actividades Misionales. Fuente: Elaboración propia](IlustracionesCostos/ilustracion8.png "Distribución de Costos Indirectos a Actividades Misionales"){width="70%" fig-align="center"}
 
