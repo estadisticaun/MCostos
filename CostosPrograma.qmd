@@ -1,12 +1,3 @@
----
-header-includes:
-- \usepackage{amsmath}
-- \usepackage{amssymb}
-- \usepackage{mathptmx}
-- \usepackage{newtxtext}
-- \usepackage{newtxmath}
----
-
 # Costos a nivel de programa curricular
 
 ## Fuentes de información

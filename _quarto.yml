@@ -52,6 +52,11 @@ format:
     cite-method: citeproc
     biblio-style: apalike 
     #csl: apa.csl
+    crossref:
+      chapters: true
+      title-delim: "."    
+      fig-prefix: "figura"  
+      tbl-prefix: "tabla"
   pdf:
     documentclass: scrreprt
     toc: true
@@ -68,8 +73,8 @@ format:
     crossref:
       chapters: true
       title-delim: "."    
-      fig-prefix: ""  
-      tbl-prefix: ""
+      fig-prefix: "figura"  
+      tbl-prefix: "tabla"
     #mainfont: Georgia
     #urlcolor: steelblue
     cover-image: 'Imagenes/Portada1.png'

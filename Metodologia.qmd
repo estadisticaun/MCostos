@@ -230,147 +230,27 @@ De acuerdo con lo citado, para la distribución de los costos en las diferentes 
 
 En el marco del sistema de costos, teniendo en cuenta, entre otros, la reducción de las agrupaciones de costos, a diez categorías, la @tbl-Inductores muestra el detalle de los inductores definidos en el modelo de costos que permiten llevar a cabo la reasignación de costos a las actividades misionales de pregrado, posgrado, investigación y extensión para cada una de las agrupaciones:
 
-|      AGRUPACIÓN                                        |      DISTRIBUCION    COSTOS DEL NIVEL NACIONAL Y UNIMEDIOS               |      REDISTRIBUCIÓN    DE COSTOS DE PREGRADO  Y OTROS COSTOS     |      DISTRIBUCIÓN    DE COSTOS INDIRECTOS A NIVEL FACULTAD     |      COSTOS POR PROGRAMA                                                                      |
-|--------------------------------------------------------|--------------------------------------------------------------------------|------------------------------------------------------------------|----------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
-|     ASEO, CAFETERIA Y VIGILANCIA                       |     % de asignación costos de aseo, cafetería y   vigilancia             |     BASE MIXTA:   Número de Estudiantes / Total de personas      |     BASE MIXTA:   Número de Estudiantes / Total de personas    |     Número de estudiantes por programa                                                        |
-|                                                        |                                                                          |     PTA + Serv. Contratados                                      |     PTA + Serv. Contratados                                    |                                                                                               |
-|     BIENESTAR                                          |     % de asignación costos de bienestar                                  |     Directo a pregrado                                           |     Directo a pregrado                                         |     Número de estudiantes por programa                                                        |
-|     GASTOS DE PERSONAL – PTA REMUNERACION   DOCENTE    |   Se distribuye según las actividades establecidas en el acuerdo 027 de 2012, | calculando de acuerdo con la información suministrada por los docentes | los porcentajes de dedicación a cada actividad para realizar las distribuciones | correspondientes en pregrado, posgrado, investigación y extensión. |
-|     GASTOS DE PERSONAL - ADMINISTRATIVO                |     % de asignación costos distribuidos PTA   + servicios contratados    |     % de asignación de la agrupación                             |     % de asignación de la agrupación                           |     Promedio PTA y Número de estudiantes                                                      |
-|     GASTOS DE VIAJE Y TRANSPORTE                       |     % de asignación costos de viaje y   transporte                       |     Número de estudiantes                                        |     Número de estudiantes                                      |     Número de estudiantes por programa                                                        |
-|     GESTION DE BIENES                                  |     % de asignación costos de gestión de bienes                          |     BASE MIXTA: Número de Estudiantes / Total de personas        |     BASE MIXTA: Número de Estudiantes / Total de personas      |     Promedio: % de Uso de Laboratorios por programa   & Número de estudiantes por programa    |
-|                                                        |                                                                          |     PTA + Serv. Contratados                                      |     PTA + Serv. Contratados                                    |                                                                                               |
-|     IMPUESTOS, TASAS Y CONTRIBUCIONES                  |     % de asignación costos de impuestos, tasas   y contribuciones        |     BASE MIXTA: Número de Estudiantes / Total de personas        |     BASE MIXTA: Número de Estudiantes / Total de personas      |     PTA por Programa                                                                          |
-|                                                        |                                                                          |     PTA + Serv. Contratados                                      |     PTA + Serv. Contratados                                    |                                                                                               |
-|     MATERIALES, SUMINISTROS E INSUMOS                  |     % de asignación costos de materiales,   suministros e insumos        |     Prorrateo entre la agrupación                                |     BASE MIXTA: Número de Estudiantes / Total de personas      |     % de uso de Laboratorios por programa                                                     |
-|                                                        |                                                                          |                                                                  |     PTA + Serv. Contratados                                    |                                                                                               |
-|     SERVICIOS CONTRATADOS                              |     % de asignación costos de servicios   contratados                    |     Prorrateo entre la agrupación                                |     Prorrateo entre la agrupación                              |     Número de contratistas                                                                    |
-|     SERVICIOS PUBLICOS                                 |     % de asignación costos de servicios   públicos                       |     BASE MIXTA: Número de Estudiantes / Total de personas        |     BASE MIXTA: Número de Estudiantes / Total de personas      |     Número de estudiantes por programa                                                        |
-|                                                        |                                                                          |     PTA + Serv. Contratados                                      |     PTA + Serv. Contratados                                    |                                                                                               |
-|     OTROS COSTOS                                       |     % de asignación costos de otros costos                               |     BASE MIXTA: Número de Estudiantes / Total de personas        |     BASE MIXTA: Número de Estudiantes / Total de personas      |     Promedio: PTA y Número de estudiantes por   Programa                                      |
-|                                                        |                                                                          |     PTA + Serv. Contratados                                      |     PTA + Serv. Contratados                                    |                                                                                               |
+| AGRUPACIÓN                                     | DISTRIBUCION COSTOS DEL NIVEL NACIONAL Y UNIMEDIOS               | REDISTRIBUCIÓN DE COSTOS DE PREGRADO Y OTROS COSTOS                    | DISTRIBUCIÓN DE COSTOS INDIRECTOS A NIVEL FACULTAD                              | COSTOS POR PROGRAMA                                                                  |
+|---------------|---------------|---------------|---------------|---------------|
+| ASEO, CAFETERIA Y VIGILANCIA                   | \% de asignación costos de aseo, cafetería y vigilancia          | BASE MIXTA: Número de Estudiantes / Total de personas                  | BASE MIXTA: Número de Estudiantes / Total de personas                           | Número de estudiantes por programa                                                   |
+|                                                |                                                                  | PTA + Serv. Contratados                                                | PTA + Serv. Contratados                                                         |                                                                                      |
+| BIENESTAR                                      | \% de asignación costos de bienestar                             | Directo a pregrado                                                     | Directo a pregrado                                                              | Número de estudiantes por programa                                                   |
+| GASTOS DE PERSONAL -- PTA REMUNERACION DOCENTE | Se distribuye según las actividades establecidas en el acuerdo 027 de 2012, $\rightarrow$| calculando de acuerdo con la información suministrada por los docentes $\rightarrow$ | los porcentajes de dedicación a cada actividad para realizar las distribuciones $\rightarrow$ | correspondientes en pregrado, posgrado, investigación y extensión.                   |
+| GASTOS DE PERSONAL - ADMINISTRATIVO            | \% de asignación costos distribuidos PTA + servicios contratados | \% de asignación de la agrupación                                      | \% de asignación de la agrupación                                               | Promedio PTA y Número de estudiantes                                                 |
+| GASTOS DE VIAJE Y TRANSPORTE                   | \% de asignación costos de viaje y transporte                    | Número de estudiantes                                                  | Número de estudiantes                                                           | Número de estudiantes por programa                                                   |
+| GESTION DE BIENES                              | \% de asignación costos de gestión de bienes                     | BASE MIXTA: Número de Estudiantes / Total de personas                  | BASE MIXTA: Número de Estudiantes / Total de personas                           | Promedio: % de Uso de Laboratorios por programa & Número de estudiantes por programa |
+|                                                |                                                                  | PTA + Serv. Contratados                                                | PTA + Serv. Contratados                                                         |                                                                                      |
+| IMPUESTOS, TASAS Y CONTRIBUCIONES              | \% de asignación costos de impuestos, tasas y contribuciones     | BASE MIXTA: Número de Estudiantes / Total de personas                  | BASE MIXTA: Número de Estudiantes / Total de personas                           | PTA por Programa                                                                     |
+|                                                |                                                                  | PTA + Serv. Contratados                                                | PTA + Serv. Contratados                                                         |                                                                                      |
+| MATERIALES, SUMINISTROS E INSUMOS              | \% de asignación costos de materiales, suministros e insumos     | Prorrateo entre la agrupación                                          | BASE MIXTA: Número de Estudiantes / Total de personas                           | \% de uso de Laboratorios por programa                                               |
+|                                                |                                                                  |                                                                        | PTA + Serv. Contratados                                                         |                                                                                      |
+| SERVICIOS CONTRATADOS                          | \% de asignación costos de servicios contratados                 | Prorrateo entre la agrupación                                          | Prorrateo entre la agrupación                                                   | Número de contratistas                                                               |
+| SERVICIOS PUBLICOS                             | \% de asignación costos de servicios públicos                    | BASE MIXTA: Número de Estudiantes / Total de personas                  | BASE MIXTA: Número de Estudiantes / Total de personas                           | Número de estudiantes por programa                                                   |
+|                                                |                                                                  | PTA + Serv. Contratados                                                | PTA + Serv. Contratados                                                         |                                                                                      |
+| OTROS COSTOS                                   | \% de asignación costos de otros costos                          | BASE MIXTA: Número de Estudiantes / Total de personas                  | BASE MIXTA: Número de Estudiantes / Total de personas                           | Promedio: PTA y Número de estudiantes por Programa                                   |
+|                                                |                                                                  | PTA + Serv. Contratados                                                | PTA + Serv. Contratados                                                         |                                                                                      |
 
 : Inductores {#tbl-Inductores}
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:sans-serif;font-size:14px; border-left: none; border-right: none;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;border-left: none; border-right: none;font-weight: bold;}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-</style>
-<table class="tg">
-<caption>Tabla 4.1. Inductores</caption>
-<thead>
-  <tr>
-    <th class="tg-0pky">    <br>AGRUPACIÓN    </th>
-    <th class="tg-0pky">    <br>DISTRIBUCION    COSTOS DEL NIVEL NACIONAL Y UNIMEDIOS    </th>
-    <th class="tg-0pky">    <br>REDISTRIBUCIÓN    DE COSTOS DE PREGRADO  Y OTROS COSTOS    </th>
-    <th class="tg-0pky">    <br>DISTRIBUCIÓN    DE COSTOS INDIRECTOS A NIVEL FACULTAD    </th>
-    <th class="tg-0pky">    <br>COSTOS POR PROGRAMA    </th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td rowspan="2" class="tg-0pky">   <br>ASEO, CAFETERIA Y VIGILANCIA   </td>
-    <td rowspan="2" class="tg-0pky">   <br>% de asignación costos de aseo, cafetería y   vigilancia   </td>
-    <td class="tg-0pky">   <br>BASE MIXTA:   Número de Estudiantes / Total de personas</td>
-    <td class="tg-0pky">   <br>BASE MIXTA:   Número de Estudiantes / Total de personas</td>
-    <td rowspan="2" class="tg-0pky">   <br>Número de estudiantes por programa   </td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">   <br>PTA + Serv. Contratados   </td>
-    <td class="tg-0pky">   <br>PTA + Serv. Contratados   </td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">   <br>BIENESTAR   </td>
-    <td class="tg-0pky">   <br>% de asignación costos de bienestar   </td>
-    <td class="tg-0pky">   <br>Directo a pregrado   </td>
-    <td class="tg-0pky">   <br>Directo a pregrado   </td>
-    <td class="tg-0pky">   <br>Número de estudiantes por programa   </td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">   <br>GASTOS DE PERSONAL – PTA REMUNERACION   DOCENTE   </td>
-    <td class="tg-0pky" colspan="4">Se distribuye según las actividades establecidas en el acuerdo 027 de 2012 , calculando de acuerdo con la información suministrada por los docentes los porcentajes de dedicación a cada actividad para realizar las distribuciones correspondientes en pregrado, posgrado, investigación y extensión.</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">   <br>GASTOS DE PERSONAL - ADMINISTRATIVO   </td>
-    <td class="tg-0pky">   <br>% de asignación costos distribuidos PTA   + servicios contratados   </td>
-    <td class="tg-0pky">   <br>% de asignación de la agrupación   </td>
-    <td class="tg-0pky">   <br>% de asignación de la agrupación   </td>
-    <td class="tg-0pky">   <br>Promedio PTA y Número de estudiantes   </td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">   <br>GASTOS DE VIAJE Y TRANSPORTE   </td>
-    <td class="tg-0pky">   <br>% de asignación costos de viaje y   transporte   </td>
-    <td class="tg-0pky">   <br>Número de estudiantes   </td>
-    <td class="tg-0pky">   <br>Número de estudiantes   </td>
-    <td class="tg-0pky">   <br>Número de estudiantes por programa   </td>
-  </tr>
-  <tr>
-    <td rowspan="2" class="tg-0pky">   <br>GESTION DE BIENES   </td>
-    <td rowspan="2" class="tg-0pky">   <br>% de asignación costos de gestión de bienes   </td>
-    <td class="tg-0pky">   <br>BASE MIXTA: Número de Estudiantes / Total de personas</td>
-    <td class="tg-0pky">   <br>BASE MIXTA: Número de Estudiantes / Total de personas </td>
-    <td rowspan="2" class="tg-0pky">   <br>Promedio: % de Uso de Laboratorios por programa   &amp; Número de estudiantes por programa   </td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">   <br>PTA + Serv. Contratados   </td>
-    <td class="tg-0pky">   <br>PTA + Serv. Contratados   </td>
-  </tr>
-  <tr>
-    <td rowspan="2" class="tg-0pky">   <br>IMPUESTOS, TASAS Y CONTRIBUCIONES   </td>
-    <td rowspan="2" class="tg-0pky">   <br>% de asignación costos de impuestos, tasas   y contribuciones   </td>
-    <td class="tg-0pky">   <br>BASE MIXTA: Número de Estudiantes / Total de personas</td>
-    <td class="tg-0pky">   <br>BASE MIXTA: Número de Estudiantes / Total de personas</td>
-    <td rowspan="2" class="tg-0pky">   <br>PTA por Programa   </td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">   <br>PTA + Serv. Contratados   </td>
-    <td class="tg-0pky">   <br>PTA + Serv. Contratados   </td>
-  </tr>
-  <tr>
-    <td rowspan="2" class="tg-0pky">   <br>MATERIALES, SUMINISTROS E INSUMOS   </td>
-    <td rowspan="2" class="tg-0pky">   <br>% de asignación costos de materiales,   suministros e insumos   </td>
-    <td rowspan="2" class="tg-0pky">   <br>Prorrateo entre la agrupación   </td>
-    <td class="tg-0pky">   <br>BASE MIXTA: Número de Estudiantes / Total de personas</td>
-    <td rowspan="2" class="tg-0pky">   <br>% de uso de Laboratorios por programa    </td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">   <br>PTA + Serv. Contratados   </td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">   <br>SERVICIOS CONTRATADOS   </td>
-    <td class="tg-0pky">   <br>% de asignación costos de servicios   contratados   </td>
-    <td class="tg-0pky">   <br>Prorrateo entre la agrupación   </td>
-    <td class="tg-0pky">   <br>Prorrateo entre la agrupación   </td>
-    <td class="tg-0pky">   <br>Número de contratistas   </td>
-  </tr>
-  <tr>
-    <td rowspan="2" class="tg-0pky">   <br>SERVICIOS PUBLICOS   </td>
-    <td rowspan="2" class="tg-0pky">   <br>% de asignación costos de servicios   públicos   </td>
-    <td class="tg-0pky">   <br>BASE MIXTA: Número de Estudiantes / Total de personas</td>
-    <td class="tg-0pky">   <br>BASE MIXTA: Número de Estudiantes / Total de personas</td>
-    <td rowspan="2" class="tg-0pky">   <br>Número de estudiantes por programa   </td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">   <br>PTA + Serv. Contratados   </td>
-    <td class="tg-0pky">   <br>PTA + Serv. Contratados   </td>
-  </tr>
-  <tr>
-    <td rowspan="2" class="tg-0pky">   <br>OTROS COSTOS   </td>
-    <td rowspan="2" class="tg-0pky">   <br>% de asignación costos de otros costos   </td>
-    <td class="tg-0pky">   <br>BASE MIXTA: Número de Estudiantes / Total de personas</td>
-    <td class="tg-0pky">   <br>BASE MIXTA: Número de Estudiantes / Total de personas</td>
-    <td rowspan="2" class="tg-0pky">   <br>Promedio: PTA y Número de estudiantes por   Programa   </td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">   <br>PTA + Serv. Contratados   </td>
-    <td class="tg-0pky">   <br>PTA + Serv. Contratados   </td>
-  </tr>
-</tbody>
-</table>
 
 A continuación, se explican los tipos de inductores citados en la tabla anterior:
 
