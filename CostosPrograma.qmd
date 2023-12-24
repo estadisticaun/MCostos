@@ -81,17 +81,17 @@ Considerando la información preliminar del modelo aplicado a nivel facultad y c
 
 | AGRUPACIONES                                 | INDUCTORES                                                           |
 |----------------------------------------------|----------------------------------------------------------------------|
-| ASEO, CAFETERIA Y VIGILANCIA                 | Número de estudiantes por programa                                   |
-| BIENESTAR                                    | Número de estudiantes por programa                                   |
-| GASTOS DE PERSONAL ADMINSTRATIVO             | Promedio PTA y Número de estudiantes                                 |
-| GASTOS DE PERSONAL - PTA REMUNRACION DOCENTE | Cursos Cruzados                                                      |
-| GASTOS DE VIAJE Y TRANSPORTE                 | Número de estudiantes por programa                                   |
-| GESTION DE BIENES                            | Promedio: % de Uso Laboratorios & Número de estudiantes por programa |
-| IMPUESTOS, TASAS Y CONTRIBUCIONES            | PTA por programa                                                     |
-| MATERIALES, SUMINISTROS E INSUMOS            | \% de uso de Laboratorios                                            |
-| SERVICIOS CONTRATADOS                        | No. contratistas                                                     |
-| SERVICIOS PUBLICOS                           | Número de estudiantes por programa                                   |
-| OTROS COSTOS                                 | Promedio PTA y Número de estudiantes por programa                    |
+| Aseo, cafeteria y vigilancia                 | Número de estudiantes por programa                                   |
+| Bienestar                                   | Número de estudiantes por programa                                   |
+| Gastos de personal administrativo             | Promedio PTA y Número de estudiantes                                 |
+| Gastos de personal - PTA Remuneración docente | Cursos Cruzados                                                      |
+| Gastos de viaje y transporte                | Número de estudiantes por programa                                   |
+| Gstión de bienes                            | Promedio: % de Uso Laboratorios & Número de estudiantes por programa |
+| Impuestos, tasas y contribuciones           | PTA por programa                                                     |
+| Materiales, suministros e insumos          | \% de uso de Laboratorios                                            |
+| Servicios contratados                      | No. contratistas                                                     |
+| Servicios públicos                           | Número de estudiantes por programa                                   |
+| Otros costos                                 | Promedio PTA y Número de estudiantes por programa                    |
 
 : Inductores distribución programa curricular {#tbl-Inductoresprograma}
 

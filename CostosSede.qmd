@@ -44,36 +44,37 @@ Es necesario conciliar la información reportada por la Dirección Nacional de P
 
 La información recibida de Dirección Nacional de Personal Académico y Administrativo se encuentra clasificada de la siguiente manera:
 
--   Programa de Trabajo Académico - Aprobado
+  - *Programa de Trabajo Académico - Aprobado*
+    
+      - Información con estatus aprobada y debidamente identificada dentro de las cuatro actividades misionales la cual no requiere distribución a través de inductores.
+      
+      - Información aprobada con estatus "sin información" en las actividades denominadas "Actividad docente presencial", "Otras actividades docentes" y "Proyectos de investigación, Creación y extensión", se presentan cuando los docentes no identifican una asociación misional específica de la actividad adelantada, para la cual se hace necesario realizar una distribución del saldo entre el peso de las actividades misionales que sí están identificadas.
 
-    -   Información con estatus aprobada y debidamente identificada dentro de las cuatro actividades misionales la cual no requiere distribución a través de inductores.
+  - *Programa de Trabajo Académico -- No Aprobado*
 
-    -   Información aprobada con estatus "sin información" en las actividades denominadas "Actividad docente presencial", "Otras actividades docentes" y "Proyectos de investigación, Creación y extensión", se presentan cuando los docentes no identifican una asociación misional específica de la actividad adelantada, para la cual se hace necesario realizar una distribución del saldo entre el peso de las actividades misionales que sí están identificadas.
+      - Adicionalmente, existe información catalogada como "PTA en otros Estados" que recoge situaciones como docentes (de planta, ocasionales y especiales) que tienen sus Programas de Trabajo Académico en estados diferentes a aprobado, lo anterior puede presentarse por que el docente no diligenció el PTA, o porque el mismo no fue aprobado por su jefe en la Unidad Académica Básica o el decano de la facultad.
+      
+        Para la distribución de la información denominada "PTA en otros estados" se procede a efectuar un cálculo porcentual del costo correspondiente a cada una de las siete actividades reportadas en el PTA. De acuerdo a las participaciones calculadas de cada actividad en el PTA, se distribuye el valor de "PTA en otros estados".
 
--   Programa de Trabajo Académico -- No Aprobado
+    De esta manera se obtiene la distribución total del costo informado por la Dirección Nacional de Personal Académico y administrativo dentro de las actividades misionales.
+      
+    Esta actividad se debe realizar por separado para docentes de planta y docentes ocasionales y especiales, toda vez que los últimos deben reportar únicamente costos en actividades de formación de pregrado y posgrado.
 
-    -   Adicionalmente, existe información catalogada como "PTA en otros Estados" que recoge situaciones como docentes (de planta, ocasionales y especiales) que tienen sus Programas de Trabajo Académico en estados diferentes a aprobado, lo anterior puede presentarse por que el docente no diligenció el PTA, o porque el mismo no fue aprobado por su jefe en la Unidad Académica Básica o el decano de la facultad.
 
-    Para la distribución de la información denominada "PTA en otros estados" se procede a efectuar un cálculo porcentual del costo correspondiente a cada una de las siete actividades reportadas en el PTA. De acuerdo a las participaciones calculadas de cada actividad en el PTA, se distribuye el valor de "PTA en otros estados".
-
-De esta manera se obtiene la distribución total del costo informado por la Dirección Nacional de Personal Académico y administrativo dentro de las actividades misionales.
-
-Esta actividad se debe realizar por separado para docentes de planta y docentes ocasionales y especiales, toda vez que los últimos deben reportar únicamente costos en actividades de formación de pregrado y posgrado.
-
--   Distribución diferencia del PTA con contabilidad
+- **Distribución diferencia del PTA con contabilidad**
 
 Como se mencionó previamente, es necesario realizar la distribución de la diferencia presentada entre los saldos contables de los costos de personal docente y la información reportada en el PTA, ya que el modelo se desarrolla con base en la información contable arrojada por el SGF--QUIPU. Dicha diferencia se distribuye teniendo en cuenta el porcentaje de participación del costo correspondiente a las siete actividades establecidas en el PTA.
 
--   Distribución en actividades misionales
+- **Distribución en actividades misionales**
 
 Tomando en cuenta que para el modelo de costos se han definido cuatro objetos de costos de acuerdo con las actividades misionales de la Universidad (Pregrado, Posgrado, Extensión e Investigación y creación artística), es necesario distribuir los costos de personal del PTA, en términos de estas actividades.
 
 Para lo anterior, se distribuyen los costos de: actividad académico administrativa, formación y actualización, otros, situaciones especiales y otras actividades, entre las demás actividades de manera proporcional, dado que las primeras se derivan de las actividades misionales de la Universidad, de forma tal que finalmente el total del costo de personal este distribuido tan solo en las siguientes actividades por sede:
 
--   Actividad docente presencial y otras actividades docentes -- Pregrado.
--   Actividad docente presencial y otras actividades docentes -- Posgrado.
--   Proyectos de Creación / Investigación.
--   Proyectos de Extensión.
+  - Actividad docente presencial y otras actividades docentes -- Pregrado.
+  - Actividad docente presencial y otras actividades docentes -- Posgrado.
+  - Proyectos de Creación / Investigación.
+  - Proyectos de Extensión.
 
 ![Distribución Información PTA a Actividades Misionales. Fuente: Elaboración propia](IlustracionesCostos/ilustracion5.png "Distribución Información PTA a Actividades Misionales"){width="70%" fig-align="center"}
 
@@ -112,6 +113,8 @@ A continuación, se asignan los costos de Unimedios a las sedes de la Universida
 Se obtiene la tasa de asignación tomando los costos de Unimedios y se dividen entre la suma de los "Otros Costos y Gastos" por sede y por agrupación. De esta manera, Unimedios distribuye todos sus costos. Multiplicando la tasa de asignación por el costo de cada agrupación en cada sede.
 
 ![Distribución de costos del Nivel Nacional y Unimedios. Fuente: Elaboración propia](IlustracionesCostos/ilustracion7.png "Distribución de costos del Nivel Nacional y Unimedios"){width="70%" fig-align="center"}
+
+\newpage
 
 Del total de los costos reconocidos en la contabilidad de la Universidad se excluyen en el nivel de sedes, los costos de UNISALUD, EDITORIAL, FONDO PENSIONAL y REGALIAS más los costos asignados a estas unidades de gestión del Nivel Nacional y Unimedios (costos de proyectos), lo anterior por no tener relación con las actividades misionales de la Universidad.
 

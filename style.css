@@ -45,4 +45,11 @@ p {
     align-items: center;
 }
 
+.double-column-list {
+  columns: 2; /* Divide en dos columnas */
+  -webkit-columns: 2; /* Para navegadores webkit (Safari, Chrome, etc.) */
+  -moz-columns: 2; /* Para navegadores Mozilla (Firefox) */
+}
+
+
 

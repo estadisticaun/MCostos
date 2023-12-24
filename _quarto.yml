@@ -58,9 +58,10 @@ format:
       fig-prefix: "figura"  
       tbl-prefix: "tabla"
   pdf:
-    documentclass: scrreprt
+    documentclass: scrbook
     toc: true
     lof: true
+    lot: true
     number-sections: true
     colorlinks: true
     papersize: letter
@@ -73,7 +74,7 @@ format:
     crossref:
       chapters: true
       title-delim: "."    
-      fig-prefix: "figura"  
+      fig-prefix: "ilustración"  
       tbl-prefix: "tabla"
     #mainfont: Georgia
     #urlcolor: steelblue
@@ -81,6 +82,7 @@ format:
     cite-method: citeproc
     biblio-style: apalike 
     #csl: apa.csl
+    ascii: true
 
 editor: visual
 

@@ -24,7 +24,9 @@ Para el caso de las áreas de Nivel Central cuyas actividades se encuentren dire
 
 El Nivel Central de las sedes se encuentra conformado por las siguientes empresas.
 
-![Empresas Nivel Central. Fuente: Elaboración propia](IlustracionesCostos/ilustracion9.png "Empresas Nivel Central"){width="70%" fig-align="center"}
+![Empresas Nivel Central. Fuente: Elaboración propia](IlustracionesCostos/ilustracion9.png "Empresas Nivel Central"){width="60%" fig-align="center"}
+
+\newpage
 
 Una vez se obtienen los costos de Nivel central y junto a los asignados del Nivel Nacional y UNIMEDIOS a nivel de sede, más los propios reconocidos en cada facultad, se procede a efectuar la distribución de los costos indirectos a nivel de facultad mediante los inductores referenciados en la @tbl-factor.
 
