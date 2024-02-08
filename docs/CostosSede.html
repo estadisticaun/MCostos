@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.335">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,14 +17,16 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
+  margin-bottom: 0em;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -38,8 +40,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -66,8 +67,10 @@ div.csl-indent {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <link href="style.css" rel="stylesheet">
@@ -80,19 +83,21 @@ div.csl-indent {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Costos a nivel de Sede</span></h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./CostosSede.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Costos a nivel de Sede</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
       <a href="./index.html" class="sidebar-logo-link">
       <img src="./Imagenes/Portada1.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
@@ -100,29 +105,31 @@ div.csl-indent {
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Modelo de Costos Universidad Nacional de Colombia</a> 
         <div class="sidebar-tools-main tools-wide">
-    <a href="https://github.com/estadisticaun/MCostos" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
-    <a href="" title="Share" id="sidebar-tool-dropdown-0" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-share"></i></a>
-    <ul class="dropdown-menu" aria-labelledby="sidebar-tool-dropdown-0">
-        <li>
-          <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
-            <i class="bi bi-bi-twitter pe-1"></i>
-          Twitter
-          </a>
-        </li>
-        <li>
-          <a class="dropdown-item sidebar-tools-main-item" href="https://www.facebook.com/sharer/sharer.php?u=|url|">
-            <i class="bi bi-bi-facebook pe-1"></i>
-          Facebook
-          </a>
-        </li>
-        <li>
-          <a class="dropdown-item sidebar-tools-main-item" href="https://www.linkedin.com/sharing/share-offsite/?url=|url|">
-            <i class="bi bi-bi-linkedin pe-1"></i>
-          LinkedIn
-          </a>
-        </li>
-    </ul>
-  <a href="" class="quarto-reader-toggle sidebar-tool" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+    <a href="https://github.com/estadisticaun/MCostos" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <div class="dropdown">
+      <a href="" title="Share" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Share"><i class="bi bi-share"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
+              <i class="bi bi-bi-twitter pe-1"></i>
+            Twitter
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://www.facebook.com/sharer/sharer.php?u=|url|">
+              <i class="bi bi-bi-facebook pe-1"></i>
+            Facebook
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://www.linkedin.com/sharing/share-offsite/?url=|url|">
+              <i class="bi bi-bi-linkedin pe-1"></i>
+            LinkedIn
+            </a>
+          </li>
+      </ul>
+    </div>
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
   <div class="quarto-reader-toggle-btn">
   <i class="bi"></i>
   </div>
@@ -134,77 +141,89 @@ div.csl-indent {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">Prefacio</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Prefacio</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro.html" class="sidebar-item-text sidebar-link">Introducción</a>
+  <a href="./intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introducción</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./MarcoConceptual.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Marco conceptual del sistema de costos en la Universidad</span></a>
+  <a href="./MarcoConceptual.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Marco conceptual del sistema de costos en la Universidad</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./AntecedentesAplicacion.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Antecedentes de la aplicación de un sistema de costos en universidades</span></a>
+  <a href="./AntecedentesAplicacion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Antecedentes de la aplicación de un sistema de costos en universidades</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./AntecedentesUNAL.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Antecedentes Universidad Nacional de Colombia</span></a>
+  <a href="./AntecedentesUNAL.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Antecedentes Universidad Nacional de Colombia</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Metodologia.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Metodología de implementación del sistema de costos en la Universidad Nacional de Colombia</span></a>
+  <a href="./Metodologia.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Metodología de implementación del sistema de costos en la Universidad Nacional de Colombia</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Memorando.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Memorando de distribución de costos</span></a>
+  <a href="./Memorando.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Memorando de distribución de costos</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./CostosSede.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Costos a nivel de Sede</span></a>
+  <a href="./CostosSede.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Costos a nivel de Sede</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./CostosFacultad.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Costos a nivel de facultad</span></a>
+  <a href="./CostosFacultad.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Costos a nivel de facultad</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./CostosPrograma.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Costos a nivel de programa curricular</span></a>
+  <a href="./CostosPrograma.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Costos a nivel de programa curricular</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link">Referencias</a>
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Referencias</span></a>
   </div>
 </li>
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Tabla de contenido</h2>
    
   <ul>
-  <li><a href="#generación-de-balances-en-sistema-de-gestión-financiera-quipu" id="toc-generación-de-balances-en-sistema-de-gestión-financiera-quipu" class="nav-link active" data-scroll-target="#generación-de-balances-en-sistema-de-gestión-financiera-quipu"><span class="toc-section-number">6.1</span>  Generación de balances en Sistema de Gestión Financiera – QUIPU</a></li>
-  <li><a href="#depuración-información-contable" id="toc-depuración-información-contable" class="nav-link" data-scroll-target="#depuración-información-contable"><span class="toc-section-number">6.2</span>  Depuración información contable</a></li>
-  <li><a href="#identificación-proyectos-admisiones-y-fondo-pensional-reconocidos-en-el-nivel-nacional" id="toc-identificación-proyectos-admisiones-y-fondo-pensional-reconocidos-en-el-nivel-nacional" class="nav-link" data-scroll-target="#identificación-proyectos-admisiones-y-fondo-pensional-reconocidos-en-el-nivel-nacional"><span class="toc-section-number">6.3</span>  Identificación proyectos Admisiones y Fondo Pensional reconocidos en el Nivel Nacional</a></li>
-  <li><a href="#análisis-y-prorrateo-de-costos-de-la-nómina-de-docentes" id="toc-análisis-y-prorrateo-de-costos-de-la-nómina-de-docentes" class="nav-link" data-scroll-target="#análisis-y-prorrateo-de-costos-de-la-nómina-de-docentes"><span class="toc-section-number">6.4</span>  Análisis y prorrateo de costos de la nómina de docentes</a></li>
-  <li><a href="#costos-asignados-de-la-gestión-general-de-la-universidad" id="toc-costos-asignados-de-la-gestión-general-de-la-universidad" class="nav-link" data-scroll-target="#costos-asignados-de-la-gestión-general-de-la-universidad"><span class="toc-section-number">6.5</span>  Costos asignados de la gestión general de la Universidad</a>
+  <li><a href="#generación-de-balances-en-sistema-de-gestión-financiera-quipu" id="toc-generación-de-balances-en-sistema-de-gestión-financiera-quipu" class="nav-link active" data-scroll-target="#generación-de-balances-en-sistema-de-gestión-financiera-quipu"><span class="header-section-number">6.1</span> Generación de balances en Sistema de Gestión Financiera – QUIPU</a></li>
+  <li><a href="#depuración-información-contable" id="toc-depuración-información-contable" class="nav-link" data-scroll-target="#depuración-información-contable"><span class="header-section-number">6.2</span> Depuración información contable</a></li>
+  <li><a href="#identificación-proyectos-admisiones-y-fondo-pensional-reconocidos-en-el-nivel-nacional" id="toc-identificación-proyectos-admisiones-y-fondo-pensional-reconocidos-en-el-nivel-nacional" class="nav-link" data-scroll-target="#identificación-proyectos-admisiones-y-fondo-pensional-reconocidos-en-el-nivel-nacional"><span class="header-section-number">6.3</span> Identificación proyectos Admisiones y Fondo Pensional reconocidos en el Nivel Nacional</a></li>
+  <li><a href="#análisis-y-prorrateo-de-costos-de-la-nómina-de-docentes" id="toc-análisis-y-prorrateo-de-costos-de-la-nómina-de-docentes" class="nav-link" data-scroll-target="#análisis-y-prorrateo-de-costos-de-la-nómina-de-docentes"><span class="header-section-number">6.4</span> Análisis y prorrateo de costos de la nómina de docentes</a></li>
+  <li><a href="#costos-asignados-de-la-gestión-general-de-la-universidad" id="toc-costos-asignados-de-la-gestión-general-de-la-universidad" class="nav-link" data-scroll-target="#costos-asignados-de-la-gestión-general-de-la-universidad"><span class="header-section-number">6.5</span> Costos asignados de la gestión general de la Universidad</a>
   <ul class="collapse">
-  <li><a href="#redistribución-de-costos-de-pregrado-a-las-actividades-misionales" id="toc-redistribución-de-costos-de-pregrado-a-las-actividades-misionales" class="nav-link" data-scroll-target="#redistribución-de-costos-de-pregrado-a-las-actividades-misionales"><span class="toc-section-number">6.5.1</span>  Redistribución de costos de pregrado a las actividades misionales</a></li>
-  <li><a href="#distribución-de-los-costos-de-nivel-nacional-y-unimedios" id="toc-distribución-de-los-costos-de-nivel-nacional-y-unimedios" class="nav-link" data-scroll-target="#distribución-de-los-costos-de-nivel-nacional-y-unimedios"><span class="toc-section-number">6.5.2</span>  Distribución de los costos de Nivel Nacional y Unimedios</a></li>
-  <li><a href="#asignación-de-costos-indirectos-de-las-sedes-a-actividades-misionales" id="toc-asignación-de-costos-indirectos-de-las-sedes-a-actividades-misionales" class="nav-link" data-scroll-target="#asignación-de-costos-indirectos-de-las-sedes-a-actividades-misionales"><span class="toc-section-number">6.5.3</span>  Asignación de costos indirectos de las sedes a actividades misionales</a></li>
+  <li><a href="#redistribución-de-costos-de-pregrado-a-las-actividades-misionales" id="toc-redistribución-de-costos-de-pregrado-a-las-actividades-misionales" class="nav-link" data-scroll-target="#redistribución-de-costos-de-pregrado-a-las-actividades-misionales"><span class="header-section-number">6.5.1</span> Redistribución de costos de pregrado a las actividades misionales</a></li>
+  <li><a href="#distribución-de-los-costos-de-nivel-nacional-y-unimedios" id="toc-distribución-de-los-costos-de-nivel-nacional-y-unimedios" class="nav-link" data-scroll-target="#distribución-de-los-costos-de-nivel-nacional-y-unimedios"><span class="header-section-number">6.5.2</span> Distribución de los costos de Nivel Nacional y Unimedios</a></li>
+  <li><a href="#asignación-de-costos-indirectos-de-las-sedes-a-actividades-misionales" id="toc-asignación-de-costos-indirectos-de-las-sedes-a-actividades-misionales" class="nav-link" data-scroll-target="#asignación-de-costos-indirectos-de-las-sedes-a-actividades-misionales"><span class="header-section-number">6.5.3</span> Asignación de costos indirectos de las sedes a actividades misionales</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -214,7 +233,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Costos a nivel de Sede</span></h1>
+<h1 class="title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Costos a nivel de Sede</span></h1>
 </div>
 
 
@@ -227,7 +246,9 @@ div.csl-indent {
   </div>
   
 
+
 </header>
+
 
 <p>En el presente numeral se exponen los pasos que se realizan en la aplicación del modelo para obtener el costeo a nivel de sede puntualizando la estructura general de la universidad y las relaciones existentes entre las diferentes unidades de gestión de la Universidad para distribuir los costos atribuibles a las actividades misionales de pregrado, posgrado, investigación y extensión, recurriendo a inductores para distribuir los costos del Nivel Nacional, Unimedios, Otros Costos y Gastos y Redistribución de los costos de Pregrado.</p>
 <section id="generación-de-balances-en-sistema-de-gestión-financiera-quipu" class="level2" data-number="6.1">
@@ -261,10 +282,8 @@ div.csl-indent {
 <p>La siguiente ilustración, resume las actividades que conforman el Programa de Trabajo Académico de los docentes de la Universidad.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<figure class="figure">
-<img src="IlustracionesCostos/ilustracion4.png" title="Programa de Trabajo Académico de la Universidad Nacional" class="img-fluid figure-img" style="width:60.0%">
-</figure>
-<p></p><figcaption class="figure-caption">Programa de Trabajo Académico de la Universidad Nacional. Fuente: Elaboración propia con base en Instructivo para el manejo del programa Académico e informa anual de Actividades (Universidad Nacional de Colombia, 2011)</figcaption><p></p>
+<p><img src="IlustracionesCostos/ilustracion4.png" title="Programa de Trabajo Académico de la Universidad Nacional" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%"></p>
+<figcaption>Programa de Trabajo Académico de la Universidad Nacional. Fuente: Elaboración propia con base en Instructivo para el manejo del programa Académico e informa anual de Actividades (Universidad Nacional de Colombia, 2011)</figcaption>
 </figure>
 </div>
 <p>Es necesario conciliar la información reportada por la Dirección Nacional de Personal Académico y Administrativo y los saldos generados a través del SGF QUIPU, para ello se comparan los valores reportados en el PTA con los saldos contables correspondientes a los costos de personal docente de la respectiva vigencia, discriminando los costos del personal docente por objeto de costos (Pregrado, Posgrado, Investigación, y Extensión), así como por sede (sedes andinas y sedes de presencia nacional).</p>
@@ -298,10 +317,8 @@ div.csl-indent {
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<figure class="figure">
-<img src="IlustracionesCostos/ilustracion5.png" title="Distribución Información PTA a Actividades Misionales" class="img-fluid figure-img" style="width:70.0%">
-</figure>
-<p></p><figcaption class="figure-caption">Distribución Información PTA a Actividades Misionales. Fuente: Elaboración propia</figcaption><p></p>
+<p><img src="IlustracionesCostos/ilustracion5.png" title="Distribución Información PTA a Actividades Misionales" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></p>
+<figcaption>Distribución Información PTA a Actividades Misionales. Fuente: Elaboración propia</figcaption>
 </figure>
 </div>
 </section>
@@ -317,20 +334,18 @@ div.csl-indent {
 <h3 data-number="6.5.1" class="anchored" data-anchor-id="redistribución-de-costos-de-pregrado-a-las-actividades-misionales"><span class="header-section-number">6.5.1</span> Redistribución de costos de pregrado a las actividades misionales</h3>
 <p>De acuerdo con la normativa contable la universidad reconoce en las cuentas de clase 7 costos de transformación las erogaciones que de acuerdo con su origen y soportes corresponden a las actividades misionales, para lo cual el catálogo de cuentas contables identifica de manera separada la información para pregrado, posgrado, investigación y extensión.</p>
 <p>Sin embargo, se presentan erogaciones para las cuales no es fácil identificar a cuál de las cuatro actividades misionales de la Universidad corresponden, dado que por su naturaleza afectarían todas o a algunas de las mismas, en estos casos los reconocimientos contables se realizan en su totalidad en las cuentas de costos de pregrado. Ejemplo de esta circunstancia son los costos de la nómina de docentes, dado que cuando la información llega a las áreas financieras para su reconocimiento, la misma no se encuentra discriminada entre pregrado, posgrado, investigación y extensión.</p>
-<p>Con base en lo anterior, los costos reconocidos contablemente en las actividades misionales de posgrado, investigación y extensión se tomarán como costos directos y no serán objeto de ninguna distribución; y los costos reconocidos contablemente en las cuentas de costos de pregrado se distribuyen en las cuatro actividades misionales de la Universidad, tomando como inductores los definidos previamente en el presente documento. (Ver <a href="Metodologia.html#tbl-Inductores">tabla&nbsp;<span>4.1</span></a>).</p>
+<p>Con base en lo anterior, los costos reconocidos contablemente en las actividades misionales de posgrado, investigación y extensión se tomarán como costos directos y no serán objeto de ninguna distribución; y los costos reconocidos contablemente en las cuentas de costos de pregrado se distribuyen en las cuatro actividades misionales de la Universidad, tomando como inductores los definidos previamente en el presente documento. (Ver <a href="Metodologia.html#tbl-Inductores" class="quarto-xref">tabla&nbsp;<span>4.1</span></a>).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<figure class="figure">
-<img src="IlustracionesCostos/ilustracion6.png" title="Distribución costos de pregrado a demás actividades misionales" class="img-fluid figure-img" style="width:70.0%">
-</figure>
-<p></p><figcaption class="figure-caption">Distribución costos de pregrado a demás actividades misionales. Fuente: Elaboración propia</figcaption><p></p>
+<p><img src="IlustracionesCostos/ilustracion6.png" title="Distribución costos de pregrado a demás actividades misionales" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></p>
+<figcaption>Distribución costos de pregrado a demás actividades misionales. Fuente: Elaboración propia</figcaption>
 </figure>
 </div>
 </section>
 <section id="distribución-de-los-costos-de-nivel-nacional-y-unimedios" class="level3" data-number="6.5.2">
 <h3 data-number="6.5.2" class="anchored" data-anchor-id="distribución-de-los-costos-de-nivel-nacional-y-unimedios"><span class="header-section-number">6.5.2</span> Distribución de los costos de Nivel Nacional y Unimedios</h3>
 <p>Corresponde a los costos del Nivel Nacional y Unimedios que son asignados a las nueve sedes y unidades especiales, esta distribución se hace teniendo en cuenta que las áreas del nivel nacional como la rectoría, vicerrectorías, la dirección de personal académico y administrativo, la dirección de programas de posgrado, la Gerencia Nacional Financiera y Administrativa, Planeación Nacional, Dirección Jurídica Nacional, entre otras, ejecutan actividades de gestión, dirección, administración y/o de coordinación necesarias para el cumplimiento de las actividades misionales de la Universidad y el correcto funcionamiento de las facultades y los programas curriculares; así mismo, Unimedios hace labores de divulgación de las actividades misionales, por lo que estos costos se distribuyen a las sedes, y unidades especiales, los cuales, en el caso de las sedes, se asignarán posteriormente a las facultades con base en los inductores determinados para tal fin.</p>
-<p>Para esta distribución se definieron nuevos inductores de costos, toda vez que no es posible usar inductores como número de estudiantes, o número de docentes ya que en el Nivel Nacional y en Unimedios no se encuentran estas figuras, por lo que se han definido usar los porcentajes de asignación relacionados en la <a href="Metodologia.html#tbl-Inductores">tabla&nbsp;<span>4.1</span></a>.</p>
+<p>Para esta distribución se definieron nuevos inductores de costos, toda vez que no es posible usar inductores como número de estudiantes, o número de docentes ya que en el Nivel Nacional y en Unimedios no se encuentran estas figuras, por lo que se han definido usar los porcentajes de asignación relacionados en la <a href="Metodologia.html#tbl-Inductores" class="quarto-xref">tabla&nbsp;<span>4.1</span></a>.</p>
 <p>Para la distribución de los costos del Nivel Nacional se toman los costos totales de dicha unidad de gestión por cada una de las agrupaciones y se dividen entre la suma de los costos y gastos totales de las sedes, Unimedios, Unisalud, Editorial Fondo Pensional, y Regalías.</p>
 <p>Para el caso del Fondo Pensional, en atención a la normatividad especial que lo reglamenta, el Nivel Nacional asume los gastos de personal y gastos generales que requiere el fondo para su funcionamiento, sin embargo, estos gastos se deben trasladar del Nivel Nacional a los costos propios del Fondo Pensional, para así determinar los costos a asignar por los servicios prestados por el Nivel Nacional.</p>
 <p>De esta manera, el Nivel Nacional distribuye todos sus costos, multiplicando la tasa de asignación por el costo de cada agrupación en cada sede por Actividad misional (Pregrado, Posgrado, Investigación y Extensión) y a Unimedios, Unisalud, Fondo Pensional, Editorial y Regalías.</p>
@@ -338,33 +353,29 @@ div.csl-indent {
 <p>Se obtiene la tasa de asignación tomando los costos de Unimedios y se dividen entre la suma de los “Otros Costos y Gastos” por sede y por agrupación. De esta manera, Unimedios distribuye todos sus costos. Multiplicando la tasa de asignación por el costo de cada agrupación en cada sede.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<figure class="figure">
-<img src="IlustracionesCostos/ilustracion7.png" title="Distribución de costos del Nivel Nacional y Unimedios" class="img-fluid figure-img" style="width:70.0%">
-</figure>
-<p></p><figcaption class="figure-caption">Distribución de costos del Nivel Nacional y Unimedios. Fuente: Elaboración propia</figcaption><p></p>
+<p><img src="IlustracionesCostos/ilustracion7.png" title="Distribución de costos del Nivel Nacional y Unimedios" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></p>
+<figcaption>Distribución de costos del Nivel Nacional y Unimedios. Fuente: Elaboración propia</figcaption>
 </figure>
 </div>
 <p>Del total de los costos reconocidos en la contabilidad de la Universidad se excluyen en el nivel de sedes, los costos de UNISALUD, EDITORIAL, FONDO PENSIONAL y REGALIAS más los costos asignados a estas unidades de gestión del Nivel Nacional y Unimedios (costos de proyectos), lo anterior por no tener relación con las actividades misionales de la Universidad.</p>
 </section>
 <section id="asignación-de-costos-indirectos-de-las-sedes-a-actividades-misionales" class="level3" data-number="6.5.3">
 <h3 data-number="6.5.3" class="anchored" data-anchor-id="asignación-de-costos-indirectos-de-las-sedes-a-actividades-misionales"><span class="header-section-number">6.5.3</span> Asignación de costos indirectos de las sedes a actividades misionales</h3>
-<p>El último paso en el proceso de construcción del modelo de costos a nivel de sede es la distribución de los costos indirectos reconocidos contablemente en cada una de las sedes, a los costos misionales de las mismas estos costos indirectos son aquellos catalogados como “otros costos y gastos”. Para ello, se usan los mismos inductores definidos para la distribución de los costos de pregrado (<a href="Metodologia.html#tbl-Inductores">tabla&nbsp;<span>4.1</span></a>).</p>
+<p>El último paso en el proceso de construcción del modelo de costos a nivel de sede es la distribución de los costos indirectos reconocidos contablemente en cada una de las sedes, a los costos misionales de las mismas estos costos indirectos son aquellos catalogados como “otros costos y gastos”. Para ello, se usan los mismos inductores definidos para la distribución de los costos de pregrado (<a href="Metodologia.html#tbl-Inductores" class="quarto-xref">tabla&nbsp;<span>4.1</span></a>).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<figure class="figure">
-<img src="IlustracionesCostos/ilustracion8.png" title="Distribución de Costos Indirectos a Actividades Misionales" class="img-fluid figure-img" style="width:70.0%">
-</figure>
-<p></p><figcaption class="figure-caption">Distribución de Costos Indirectos a Actividades Misionales. Fuente: Elaboración propia</figcaption><p></p>
+<p><img src="IlustracionesCostos/ilustracion8.png" title="Distribución de Costos Indirectos a Actividades Misionales" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></p>
+<figcaption>Distribución de Costos Indirectos a Actividades Misionales. Fuente: Elaboración propia</figcaption>
 </figure>
 </div>
 <p>Una vez realizadas estas distribuciones, sumada con los costos del PTA, se obtienen las estructuras de costos para las nueve sedes de la Universidad, esto es el costo final de cada una de las cuatro actividades misionales en las diferentes sedes.</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography" style="display: none">
-<div id="ref-AdmisionesUNAL" class="csl-entry" role="doc-biblioentry">
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-AdmisionesUNAL" class="csl-entry" role="listitem">
 <em>Admisiones Universidad Nacional de Colombia</em>. 2023. <a href="https://admisiones.unal.edu.co/somos-dna/">https://admisiones.unal.edu.co/somos-dna/</a>.
 </div>
-<div id="ref-UNALLegal" class="csl-entry" role="doc-biblioentry">
+<div id="ref-UNALLegal" class="csl-entry" role="listitem">
 <em>Universidad Nacional de Colombia. Legal</em>. 2023. <a href="http://www.legal.unal.edu.co/rlunal/home/doc.jsp?d_i=37466">http://www.legal.unal.edu.co/rlunal/home/doc.jsp?d_i=37466</a>.
 </div>
 </div>
@@ -399,9 +410,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -437,10 +462,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -450,8 +474,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -466,6 +499,238 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -507,12 +772,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./Memorando.html" class="pagination-link">
+      <a href="./Memorando.html" class="pagination-link  aria-label=" &lt;span="" de="" distribución="" costos&lt;="" span&gt;"="">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Memorando de distribución de costos</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./CostosFacultad.html" class="pagination-link">
+      <a href="./CostosFacultad.html" class="pagination-link" aria-label="<span class='chapter-number'>7</span>&nbsp; <span class='chapter-title'>Costos a nivel de facultad</span>">
         <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Costos a nivel de facultad</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
@@ -527,15 +792,21 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </li>  
 </ul>
     </div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="http://planeacion.unal.edu.co/home/">Universidad Nacional de Colombia</a>
+    <a class="nav-link" href="https://gerencia.unal.edu.co/">
+<p>Universidad Nacional de Colombia</p>
+</a>
   </li>  
 </ul>
     </div>
   </div>
 </footer>
+
 
 
 

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.335">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,14 +17,16 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
+  margin-bottom: 0em;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -38,8 +40,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -66,8 +67,10 @@ div.csl-indent {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <link href="style.css" rel="stylesheet">
@@ -80,19 +83,21 @@ div.csl-indent {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Metodología de implementación del sistema de costos en la Universidad Nacional de Colombia</span></h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Metodologia.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Metodología de implementación del sistema de costos en la Universidad Nacional de Colombia</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
       <a href="./index.html" class="sidebar-logo-link">
       <img src="./Imagenes/Portada1.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
@@ -100,29 +105,31 @@ div.csl-indent {
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Modelo de Costos Universidad Nacional de Colombia</a> 
         <div class="sidebar-tools-main tools-wide">
-    <a href="https://github.com/estadisticaun/MCostos" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
-    <a href="" title="Share" id="sidebar-tool-dropdown-0" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-share"></i></a>
-    <ul class="dropdown-menu" aria-labelledby="sidebar-tool-dropdown-0">
-        <li>
-          <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
-            <i class="bi bi-bi-twitter pe-1"></i>
-          Twitter
-          </a>
-        </li>
-        <li>
-          <a class="dropdown-item sidebar-tools-main-item" href="https://www.facebook.com/sharer/sharer.php?u=|url|">
-            <i class="bi bi-bi-facebook pe-1"></i>
-          Facebook
-          </a>
-        </li>
-        <li>
-          <a class="dropdown-item sidebar-tools-main-item" href="https://www.linkedin.com/sharing/share-offsite/?url=|url|">
-            <i class="bi bi-bi-linkedin pe-1"></i>
-          LinkedIn
-          </a>
-        </li>
-    </ul>
-  <a href="" class="quarto-reader-toggle sidebar-tool" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+    <a href="https://github.com/estadisticaun/MCostos" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <div class="dropdown">
+      <a href="" title="Share" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Share"><i class="bi bi-share"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
+              <i class="bi bi-bi-twitter pe-1"></i>
+            Twitter
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://www.facebook.com/sharer/sharer.php?u=|url|">
+              <i class="bi bi-bi-facebook pe-1"></i>
+            Facebook
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://www.linkedin.com/sharing/share-offsite/?url=|url|">
+              <i class="bi bi-bi-linkedin pe-1"></i>
+            LinkedIn
+            </a>
+          </li>
+      </ul>
+    </div>
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
   <div class="quarto-reader-toggle-btn">
   <i class="bi"></i>
   </div>
@@ -134,86 +141,98 @@ div.csl-indent {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">Prefacio</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Prefacio</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro.html" class="sidebar-item-text sidebar-link">Introducción</a>
+  <a href="./intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introducción</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./MarcoConceptual.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Marco conceptual del sistema de costos en la Universidad</span></a>
+  <a href="./MarcoConceptual.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Marco conceptual del sistema de costos en la Universidad</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./AntecedentesAplicacion.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Antecedentes de la aplicación de un sistema de costos en universidades</span></a>
+  <a href="./AntecedentesAplicacion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Antecedentes de la aplicación de un sistema de costos en universidades</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./AntecedentesUNAL.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Antecedentes Universidad Nacional de Colombia</span></a>
+  <a href="./AntecedentesUNAL.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Antecedentes Universidad Nacional de Colombia</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Metodologia.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Metodología de implementación del sistema de costos en la Universidad Nacional de Colombia</span></a>
+  <a href="./Metodologia.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Metodología de implementación del sistema de costos en la Universidad Nacional de Colombia</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Memorando.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Memorando de distribución de costos</span></a>
+  <a href="./Memorando.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Memorando de distribución de costos</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./CostosSede.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Costos a nivel de Sede</span></a>
+  <a href="./CostosSede.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Costos a nivel de Sede</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./CostosFacultad.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Costos a nivel de facultad</span></a>
+  <a href="./CostosFacultad.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Costos a nivel de facultad</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./CostosPrograma.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Costos a nivel de programa curricular</span></a>
+  <a href="./CostosPrograma.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Costos a nivel de programa curricular</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link">Referencias</a>
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Referencias</span></a>
   </div>
 </li>
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Tabla de contenido</h2>
    
   <ul>
-  <li><a href="#actividades-misionales" id="toc-actividades-misionales" class="nav-link active" data-scroll-target="#actividades-misionales"><span class="toc-section-number">4.1</span>  Actividades misionales</a></li>
-  <li><a href="#agrupaciones" id="toc-agrupaciones" class="nav-link" data-scroll-target="#agrupaciones"><span class="toc-section-number">4.2</span>  Agrupaciones</a></li>
-  <li><a href="#tipo-de-agrupaciones" id="toc-tipo-de-agrupaciones" class="nav-link" data-scroll-target="#tipo-de-agrupaciones"><span class="toc-section-number">4.3</span>  Tipo de agrupaciones</a>
+  <li><a href="#actividades-misionales" id="toc-actividades-misionales" class="nav-link active" data-scroll-target="#actividades-misionales"><span class="header-section-number">4.1</span> Actividades misionales</a></li>
+  <li><a href="#agrupaciones" id="toc-agrupaciones" class="nav-link" data-scroll-target="#agrupaciones"><span class="header-section-number">4.2</span> Agrupaciones</a></li>
+  <li><a href="#tipo-de-agrupaciones" id="toc-tipo-de-agrupaciones" class="nav-link" data-scroll-target="#tipo-de-agrupaciones"><span class="header-section-number">4.3</span> Tipo de agrupaciones</a>
   <ul class="collapse">
-  <li><a href="#aseo-cafetería-y-vigilancia" id="toc-aseo-cafetería-y-vigilancia" class="nav-link" data-scroll-target="#aseo-cafetería-y-vigilancia"><span class="toc-section-number">4.3.1</span>  Aseo, cafetería y vigilancia</a></li>
-  <li><a href="#bienestar" id="toc-bienestar" class="nav-link" data-scroll-target="#bienestar"><span class="toc-section-number">4.3.2</span>  Bienestar</a></li>
-  <li><a href="#gastos-de-personal" id="toc-gastos-de-personal" class="nav-link" data-scroll-target="#gastos-de-personal"><span class="toc-section-number">4.3.3</span>  Gastos de Personal</a></li>
-  <li><a href="#gastos-de-viaje-y-transporte" id="toc-gastos-de-viaje-y-transporte" class="nav-link" data-scroll-target="#gastos-de-viaje-y-transporte"><span class="toc-section-number">4.3.4</span>  Gastos de viaje y transporte</a></li>
-  <li><a href="#gestión-de-bienes" id="toc-gestión-de-bienes" class="nav-link" data-scroll-target="#gestión-de-bienes"><span class="toc-section-number">4.3.5</span>  Gestión de bienes</a></li>
-  <li><a href="#impuestos-tasas-y-contribuciones" id="toc-impuestos-tasas-y-contribuciones" class="nav-link" data-scroll-target="#impuestos-tasas-y-contribuciones"><span class="toc-section-number">4.3.6</span>  Impuestos, tasas y contribuciones</a></li>
-  <li><a href="#materiales-suministros-e-insumos" id="toc-materiales-suministros-e-insumos" class="nav-link" data-scroll-target="#materiales-suministros-e-insumos"><span class="toc-section-number">4.3.7</span>  Materiales, suministros e insumos</a></li>
-  <li><a href="#servicios-contratados" id="toc-servicios-contratados" class="nav-link" data-scroll-target="#servicios-contratados"><span class="toc-section-number">4.3.8</span>  Servicios contratados</a></li>
-  <li><a href="#servicios-públicos" id="toc-servicios-públicos" class="nav-link" data-scroll-target="#servicios-públicos"><span class="toc-section-number">4.3.9</span>  Servicios públicos</a></li>
-  <li><a href="#otros-costos" id="toc-otros-costos" class="nav-link" data-scroll-target="#otros-costos"><span class="toc-section-number">4.3.10</span>  Otros costos</a></li>
+  <li><a href="#aseo-cafetería-y-vigilancia" id="toc-aseo-cafetería-y-vigilancia" class="nav-link" data-scroll-target="#aseo-cafetería-y-vigilancia"><span class="header-section-number">4.3.1</span> Aseo, cafetería y vigilancia</a></li>
+  <li><a href="#bienestar" id="toc-bienestar" class="nav-link" data-scroll-target="#bienestar"><span class="header-section-number">4.3.2</span> Bienestar</a></li>
+  <li><a href="#gastos-de-personal" id="toc-gastos-de-personal" class="nav-link" data-scroll-target="#gastos-de-personal"><span class="header-section-number">4.3.3</span> Gastos de Personal</a></li>
+  <li><a href="#gastos-de-viaje-y-transporte" id="toc-gastos-de-viaje-y-transporte" class="nav-link" data-scroll-target="#gastos-de-viaje-y-transporte"><span class="header-section-number">4.3.4</span> Gastos de viaje y transporte</a></li>
+  <li><a href="#gestión-de-bienes" id="toc-gestión-de-bienes" class="nav-link" data-scroll-target="#gestión-de-bienes"><span class="header-section-number">4.3.5</span> Gestión de bienes</a></li>
+  <li><a href="#impuestos-tasas-y-contribuciones" id="toc-impuestos-tasas-y-contribuciones" class="nav-link" data-scroll-target="#impuestos-tasas-y-contribuciones"><span class="header-section-number">4.3.6</span> Impuestos, tasas y contribuciones</a></li>
+  <li><a href="#materiales-suministros-e-insumos" id="toc-materiales-suministros-e-insumos" class="nav-link" data-scroll-target="#materiales-suministros-e-insumos"><span class="header-section-number">4.3.7</span> Materiales, suministros e insumos</a></li>
+  <li><a href="#servicios-contratados" id="toc-servicios-contratados" class="nav-link" data-scroll-target="#servicios-contratados"><span class="header-section-number">4.3.8</span> Servicios contratados</a></li>
+  <li><a href="#servicios-públicos" id="toc-servicios-públicos" class="nav-link" data-scroll-target="#servicios-públicos"><span class="header-section-number">4.3.9</span> Servicios públicos</a></li>
+  <li><a href="#otros-costos" id="toc-otros-costos" class="nav-link" data-scroll-target="#otros-costos"><span class="header-section-number">4.3.10</span> Otros costos</a></li>
   </ul></li>
-  <li><a href="#inductores-o-direccionadores-de-costos" id="toc-inductores-o-direccionadores-de-costos" class="nav-link" data-scroll-target="#inductores-o-direccionadores-de-costos"><span class="toc-section-number">4.4</span>  Inductores o direccionadores de costos</a>
+  <li><a href="#inductores-o-direccionadores-de-costos" id="toc-inductores-o-direccionadores-de-costos" class="nav-link" data-scroll-target="#inductores-o-direccionadores-de-costos"><span class="header-section-number">4.4</span> Inductores o direccionadores de costos</a>
   <ul class="collapse">
-  <li><a href="#inductores-utilizados-en-el-desarrollo-del-modelo" id="toc-inductores-utilizados-en-el-desarrollo-del-modelo" class="nav-link" data-scroll-target="#inductores-utilizados-en-el-desarrollo-del-modelo"><span class="toc-section-number">4.4.1</span>  Inductores utilizados en el desarrollo del modelo</a></li>
+  <li><a href="#inductores-utilizados-en-el-desarrollo-del-modelo" id="toc-inductores-utilizados-en-el-desarrollo-del-modelo" class="nav-link" data-scroll-target="#inductores-utilizados-en-el-desarrollo-del-modelo"><span class="header-section-number">4.4.1</span> Inductores utilizados en el desarrollo del modelo</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -223,7 +242,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Metodología de implementación del sistema de costos en la Universidad Nacional de Colombia</span></h1>
+<h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Metodología de implementación del sistema de costos en la Universidad Nacional de Colombia</span></h1>
 </div>
 
 
@@ -236,7 +255,9 @@ div.csl-indent {
   </div>
   
 
+
 </header>
+
 
 <p>A continuación, se presentan las generalidades de la metodología para la determinación de los costos de las actividades misionales de la Universidad en sus diferentes niveles y según su estructura organizativa y administrativa:</p>
 <ul>
@@ -249,10 +270,8 @@ div.csl-indent {
 <p>El modelo define a las actividades misionales como aquellas que son propias de la naturaleza de la Universidad, se reconocen como actividades misionales la docencia (en adelante pregrado y posgrado) la investigación y la extensión, dado que por las dinámicas mismas del proceso de formación sus costos deben ser determinados de forma independiente, como se presenta en el siguiente gráfico.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<figure class="figure">
-<img src="IlustracionesCostos/ilustracion2.jpeg" title="Actividades misionales" class="img-fluid figure-img" style="width:60.0%">
-</figure>
-<p></p><figcaption class="figure-caption">Actividades misionales. Fuente: Elaboración propia</figcaption><p></p>
+<p><img src="IlustracionesCostos/ilustracion2.jpeg" title="Actividades misionales" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%"></p>
+<figcaption>Actividades misionales. Fuente: Elaboración propia</figcaption>
 </figure>
 </div>
 </section>
@@ -262,10 +281,8 @@ div.csl-indent {
 <p>De esta manera, las agrupaciones de registros individuales de costos tienen el propósito de asociar o reunir conceptos contables similares en categorías amplias, que facilitan el procesamiento y la lectura de la información y la aplicación adecuada de los inductores definidos para realizar la asignación y/o distribución de los costos entre las diferentes actividades misionales de la universidad.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<figure class="figure">
-<img src="IlustracionesCostos/ilustracion3.png" title="Agrupaciones Sistema de Costos Universidad Nacional de Colombia" class="img-fluid figure-img" style="width:80.0%">
-</figure>
-<p></p><figcaption class="figure-caption">Agrupaciones Sistema de Costos Universidad Nacional de Colombia. Fuente: Elaboración propia</figcaption><p></p>
+<p><img src="IlustracionesCostos/ilustracion3.png" title="Agrupaciones Sistema de Costos Universidad Nacional de Colombia" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%"></p>
+<figcaption>Agrupaciones Sistema de Costos Universidad Nacional de Colombia. Fuente: Elaboración propia</figcaption>
 </figure>
 </div>
 <div style="page-break-after: always;"></div>
@@ -484,19 +501,25 @@ div.csl-indent {
 <p>De acuerdo con lo citado, para la distribución de los costos en las diferentes actividades misionales de la Universidad Nacional de Colombia el modelo ha determinado diferentes inductores, los cuales han presentado ajustes y/o variaciones producto de los análisis realizados a la información generada de la aplicación del mismo durante las vigencias 2015 al 2021, lo cual se considera ha generado mejoras en la utilización de los mismos. En el presente documento se hace referencia solo a los inductores que actualmente se usan para cada agrupación de costos, luego de la aplicación del modelo durante varios años consecutivos.</p>
 <section id="inductores-utilizados-en-el-desarrollo-del-modelo" class="level3" data-number="4.4.1">
 <h3 data-number="4.4.1" class="anchored" data-anchor-id="inductores-utilizados-en-el-desarrollo-del-modelo"><span class="header-section-number">4.4.1</span> Inductores utilizados en el desarrollo del modelo</h3>
-<p>En el marco del sistema de costos, teniendo en cuenta, entre otros, la reducción de las agrupaciones de costos, a diez categorías, la <a href="#tbl-Inductores">tabla&nbsp;<span>4.1</span></a> muestra el detalle de los inductores definidos en el modelo de costos que permiten llevar a cabo la reasignación de costos a las actividades misionales de pregrado, posgrado, investigación y extensión para cada una de las agrupaciones:</p>
-<div id="tbl-Inductores" class="anchored">
+<p>En el marco del sistema de costos, teniendo en cuenta, entre otros, la reducción de las agrupaciones de costos, a diez categorías, la <a href="#tbl-Inductores" class="quarto-xref">tabla&nbsp;<span>4.1</span></a> muestra el detalle de los inductores definidos en el modelo de costos que permiten llevar a cabo la reasignación de costos a las actividades misionales de pregrado, posgrado, investigación y extensión para cada una de las agrupaciones:</p>
+<div id="tbl-Inductores" class="quarto-float anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-Inductores-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabla&nbsp;4.1. Inductores
+</figcaption>
+<div aria-describedby="tbl-Inductores-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table>
-<caption>Tabla&nbsp;4.1. Inductores</caption>
 <tbody>
 </tbody>
 </table>
+</div>
+</figure>
 </div>
 <div class="cell" data-layout-align="center" data-tbl-cap="Inductores">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="IlustracionesCostos/Tabla1_inductores.png" class="img-fluid figure-img" width="603"></p>
+<p><img src="IlustracionesCostos/Tabla1_inductores.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="603"></p>
 </figure>
 </div>
 </div>
@@ -551,14 +574,14 @@ div.csl-indent {
 <p>Este inductor se encuentra designado a la agrupación “servicios contratados” a nivel de costos por programa y permite determinar la dedicación y apoyo de los trabajadores al interior de las facultades en actividades de misionales de pregrado y posgrado.</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography" style="display: none">
-<div id="ref-Contaduria" class="csl-entry" role="doc-biblioentry">
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-Contaduria" class="csl-entry" role="listitem">
 <em>Contaduría General de La Nación. Marco de Referencia Para La Implantación Del Sistema de Costos En Las Entidades Del Sector Público</em>. 2008. Bogotá: Imprenta Nacional.
 </div>
-<div id="ref-HorngrenFoster" class="csl-entry" role="doc-biblioentry">
-Horngren C., Datar S., Foster G. 2002. <em>Contabilidad de Costos, Un Enfoque Gerencial (Vol. X). (M. D. Anta, Ed., J. S. Coro, &amp; s. Campillo, Trads.)</em>. México D.F., México: Pearson Educación.
+<div id="ref-HorngrenFoster" class="csl-entry" role="listitem">
+Horngren C., Datar S., Foster G. 2002. <em>Contabilidad de Costos, Un Enfoque Gerencial (Vol. X). (M. D. Anta, Ed., j. S. Coro, &amp; s. Campillo, Trads.)</em>. México D.F., México: Pearson Educación.
 </div>
-<div id="ref-UNALBienestar" class="csl-entry" role="doc-biblioentry">
+<div id="ref-UNALBienestar" class="csl-entry" role="listitem">
 <em>Universidad Nacional de Colombia. Bienestar Bogotá</em>. 2023. <a href="http://www.bienestarbogota.unal.edu.co/bienestar.php?sec=1">http://www.bienestarbogota.unal.edu.co/bienestar.php?sec=1</a>.
 </div>
 </div>
@@ -594,9 +617,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -632,10 +669,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -645,8 +681,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -661,6 +706,238 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -702,12 +979,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./AntecedentesUNAL.html" class="pagination-link">
+      <a href="./AntecedentesUNAL.html" class="pagination-link  aria-label=" &lt;span="" universidad="" nacional="" de="" colombia&lt;="" span&gt;"="">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Antecedentes Universidad Nacional de Colombia</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./Memorando.html" class="pagination-link">
+      <a href="./Memorando.html" class="pagination-link" aria-label="<span class='chapter-number'>5</span>&nbsp; <span class='chapter-title'>Memorando de distribución de costos</span>">
         <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Memorando de distribución de costos</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
@@ -722,15 +999,21 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </li>  
 </ul>
     </div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="http://planeacion.unal.edu.co/home/">Universidad Nacional de Colombia</a>
+    <a class="nav-link" href="https://gerencia.unal.edu.co/">
+<p>Universidad Nacional de Colombia</p>
+</a>
   </li>  
 </ul>
     </div>
   </div>
 </footer>
+
 
 
 

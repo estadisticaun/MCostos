@@ -15,7 +15,7 @@ book:
       - text: "Modelo de Costos UNAL"
     right:
       - text: "Universidad Nacional de Colombia"
-        href: http://planeacion.unal.edu.co/home/
+        url: https://gerencia.unal.edu.co/
   
   repo-url: https://github.com/estadisticaun/MCostos
   repo-branch: master
@@ -57,32 +57,32 @@ format:
       title-delim: "."    
       fig-prefix: "figura"  
       tbl-prefix: "tabla"
-  pdf:
-    documentclass: scrbook
-    toc: true
-    lof: true
-    lot: true
-    number-sections: true
-    colorlinks: true
-    papersize: letter
-    geometry:
-      - top=25mm
-      - left=25mm
-      - right=25mm
-      - bottom=25mm
-    fig-format: png
-    crossref:
-      chapters: true
-      title-delim: "."    
-      fig-prefix: "ilustración"  
-      tbl-prefix: "tabla"
-    #mainfont: Georgia
-    #urlcolor: steelblue
-    cover-image: 'Imagenes/Portada1.png'
-    cite-method: citeproc
-    biblio-style: apalike 
-    #csl: apa.csl
-    ascii: true
+  # pdf:
+  #   documentclass: scrbook
+  #   toc: true
+  #   lof: true
+  #   lot: true
+  #   number-sections: true
+  #   colorlinks: true
+  #   papersize: letter
+  #   geometry:
+  #     - top=25mm
+  #     - left=25mm
+  #     - right=25mm
+  #     - bottom=25mm
+  #   fig-format: png
+  #   crossref:
+  #     chapters: true
+  #     title-delim: "."    
+  #     fig-prefix: "ilustración"  
+  #     tbl-prefix: "tabla"
+  #   #mainfont: Georgia
+  #   #urlcolor: steelblue
+  #   cover-image: 'Imagenes/Portada1.png'
+  #   cite-method: citeproc
+  #   biblio-style: apalike 
+  #   #csl: apa.csl
+  #   ascii: true
 
 editor: visual
 
