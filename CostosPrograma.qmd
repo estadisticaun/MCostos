@@ -79,29 +79,29 @@ Al inicio de cada año se solicita a las facultades de las sedes andinas el núm
 
 Considerando la información preliminar del modelo aplicado a nivel facultad y con base en los criterios evaluados por el equipo de trabajo; para efectos de realizar la asignación de costos por programa curricular, se decidió que los siguientes inductores son adecuados en la asignación de costos:
 
-| AGRUPACIONES                                 | INDUCTORES                                                           |
-|----------------------------------------------|----------------------------------------------------------------------|
-| Aseo, cafeteria y vigilancia                 | Número de estudiantes por programa                                   |
-| Bienestar                                   | Número de estudiantes por programa                                   |
+| AGRUPACIONES                                  | INDUCTORES                                                           |
+|-----------------------------|-------------------------------------------|
+| Aseo, cafeteria y vigilancia                  | Número de estudiantes por programa                                   |
+| Bienestar                                     | Número de estudiantes por programa                                   |
 | Gastos de personal administrativo             | Promedio PTA y Número de estudiantes                                 |
 | Gastos de personal - PTA Remuneración docente | Cursos Cruzados                                                      |
-| Gastos de viaje y transporte                | Número de estudiantes por programa                                   |
-| Gstión de bienes                            | Promedio: % de Uso Laboratorios & Número de estudiantes por programa |
-| Impuestos, tasas y contribuciones           | PTA por programa                                                     |
-| Materiales, suministros e insumos          | \% de uso de Laboratorios                                            |
-| Servicios contratados                      | No. contratistas                                                     |
-| Servicios públicos                           | Número de estudiantes por programa                                   |
-| Otros costos                                 | Promedio PTA y Número de estudiantes por programa                    |
+| Gastos de viaje y transporte                  | Número de estudiantes por programa                                   |
+| Gstión de bienes                              | Promedio: % de Uso Laboratorios & Número de estudiantes por programa |
+| Impuestos, tasas y contribuciones             | PTA por programa                                                     |
+| Materiales, suministros e insumos             | \% de uso de Laboratorios                                            |
+| Servicios contratados                         | No. contratistas                                                     |
+| Servicios públicos                            | Número de estudiantes por programa                                   |
+| Otros costos                                  | Promedio PTA y Número de estudiantes por programa                    |
 
 : Inductores distribución programa curricular {#tbl-Inductoresprograma}
 
 La distribución de los costos por programa de las agrupaciones de PTA, Materiales, Suministros e Insumos y Servicios Contratados ya se explicaron en los numerales anteriores. Las agrupaciones de Aseo, Cafetería y Vigilancia, Bienestar y Servicios Públicos se distribuyen así en cada facultad:
 
-**Pregrado**                                                                                                          
+**Pregrado**
 
 $$\frac{\text{No. de estudiantes del programa de pregrado}}{\text{Total estudiantes de pregrado}} = \% \text{ participación por programa}$$
 
-**Posgrado**                                                                                                        
+**Posgrado**
 
 $$\frac{\text{No. de estudiantes del programa de posgrado}}{\text{Total estudiantes de posgrado}} = \% \text{ participación por programa}$$
 
@@ -109,15 +109,13 @@ El porcentaje de participación de los estudiantes de cada programa de pregrado 
 
 La distribución de los costos de las agrupaciones de Gastos de Personal Administrativo y Otros Costos se realiza con el inductor mixto del promedio entre el PTA y el número de estudiantes, el inductor se determina de la siguiente manera:
 
-**Pregrado**                                                                                                          
+**Pregrado**
 
-$$\frac{\frac{\text{(PTA por programa de pregrado)}}{\text{(Total PTA pregrado)}} + \frac{\text{(No. estudiantes por programa de pregrado)}}{\text{(Total estudiantes de posgrado)}}}{2}$$
-$$= \% \text{ participación por programa}$$
+$$\frac{\frac{\text{(PTA por programa de pregrado)}}{\text{(Total PTA pregrado)}} + \frac{\text{(No. estudiantes por programa de pregrado)}}{\text{(Total estudiantes de posgrado)}}}{2}$$ $$= \% \text{ participación por programa}$$
 
 **Posgrado**
 
-$$\frac{\frac{\text{(PTA por programa de posgrado)}}{\text{(Total PTA posgrado)}} + \frac{\text{(No. estudiantes por programa de posgrado)}}{\text{(Total estudiantes de posgrado)}}}{2}$$
-$$= \% \text{ participación por programa}$$
+$$\frac{\frac{\text{(PTA por programa de posgrado)}}{\text{(Total PTA posgrado)}} + \frac{\text{(No. estudiantes por programa de posgrado)}}{\text{(Total estudiantes de posgrado)}}}{2}$$ $$= \% \text{ participación por programa}$$
 
 El porcentaje de participación del inductor mixto para cada programa de pregrado o posgrado es multiplicado por los costos de las agrupaciones de Gastos de Personal Administrativo y Otros Costos, el costo resultante es el asignado a cada programa en la agrupación correspondiente.
 
@@ -129,9 +127,8 @@ $$\frac{\frac{\text{(\% de uso de laboratorios de cada pregrado)}}{\text{(Total 
 
 $$= \% \text{ participación por programa}$$
 
-**Posgrado**                                                                                                                                                                                                                    
-$$\frac{\frac{\text{(\% de uso de laboratorios de cada posgrado)}}{\text{(Total \% de uso de laboratorios de posgrado)}} + \frac{\text{(PTA por programa de posgrado)}}{\text{(Total PTA posgrado)}}}{2}$$
-$$= \% \text{ participación por programa}$$
+**Posgrado**\
+$$\frac{\frac{\text{(\% de uso de laboratorios de cada posgrado)}}{\text{(Total \% de uso de laboratorios de posgrado)}} + \frac{\text{(PTA por programa de posgrado)}}{\text{(Total PTA posgrado)}}}{2}$$ $$= \% \text{ participación por programa}$$
 
 El porcentaje de participación de cada programa es multiplicado por los costos de Gestión de Bienes, dando como resultado el costo de la agrupación por programa curricular.
 
@@ -139,13 +136,18 @@ Finalmente, la distribución de la agrupación de Impuestos, Tasas y Contribucio
 
 **Pregrado**
 
-$$\frac{\text{(PTA por programa curricular de pregrado)}}{\text{(Total PTA pregrado)}} \times \text{Costos de la Agrupación de Impuestos, Tasas y Contribuciones}$$ 
-$$= \text{Costo por programa de la agrupación }$$
+|      |
+|------|
+|$$\frac{\text{(PTA por programa curricular de pregrado)}}{\text{(Total PTA pregrado)}} \times \text{Costos de la Agrupación de Impuestos, Tasas y Contribuciones}$$|
+|$$= \text{Costo por programa de la agrupación}$$|
 
-**Posgrado**                                                                                                                                                                                                  
-$$\frac{\text{(PTA por programa curricular de posgrado)}}{\text{(Total PTA posgrado)}} \times \text{Costos de la Agrupación de Impuestos, Tasas y Contribuciones}$$
+**Posgrado**
 
-$$= \text{Costo por programa de la agrupación}$$
+|      |
+|------|
+| $$\frac{\text{(PTA por programa curricular de posgrado)}}{\text{(Total PTA posgrado)}} 
+ \times \text{Costos de la Agrupación de Impuestos, Tasas y Contribuciones}$$|           
+|$$= \text{Costo por programa de la agrupación}$$|
 
 Con la distribución de los costos por agrupación con cada uno de los inductores se determina el costo por programa curricular, tal y como se explicó anteriormente.
 

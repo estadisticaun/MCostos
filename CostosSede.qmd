@@ -38,7 +38,7 @@ El mencionado acuerdo señala que para el diligenciamiento se debe indicar el po
 
 La siguiente ilustración, resume las actividades que conforman el Programa de Trabajo Académico de los docentes de la Universidad.
 
-![Programa de Trabajo Académico de la Universidad Nacional. Fuente: Elaboración propia con base en Instructivo para el manejo del programa Académico e informa anual de Actividades (Universidad Nacional de Colombia, 2011)](IlustracionesCostos/ilustracion4.png "Programa de Trabajo Académico de la Universidad Nacional"){fig-align="center" width="60%"}
+![Ilustración 4. Programa de Trabajo Académico de la Universidad Nacional. Fuente: Elaboración propia con base en Instructivo para el manejo del programa Académico e informa anual de Actividades (Universidad Nacional de Colombia, 2011)](IlustracionesCostos/ilustracion4.png "Programa de Trabajo Académico de la Universidad Nacional"){fig-align="center" width="60%"}
 
 Es necesario conciliar la información reportada por la Dirección Nacional de Personal Académico y Administrativo y los saldos generados a través del SGF QUIPU, para ello se comparan los valores reportados en el PTA con los saldos contables correspondientes a los costos de personal docente de la respectiva vigencia, discriminando los costos del personal docente por objeto de costos (Pregrado, Posgrado, Investigación, y Extensión), así como por sede (sedes andinas y sedes de presencia nacional).
 
@@ -76,7 +76,7 @@ Para lo anterior, se distribuyen los costos de: actividad académico administrat
   - Proyectos de Creación / Investigación.
   - Proyectos de Extensión.
 
-![Distribución Información PTA a Actividades Misionales. Fuente: Elaboración propia](IlustracionesCostos/ilustracion5.png "Distribución Información PTA a Actividades Misionales"){width="70%" fig-align="center"}
+![Ilustración 5. Distribución Información PTA a Actividades Misionales. Fuente: Elaboración propia](IlustracionesCostos/ilustracion5.png "Distribución Información PTA a Actividades Misionales"){width="70%" fig-align="center"}
 
 ## Costos asignados de la gestión general de la Universidad
 
@@ -94,7 +94,7 @@ Sin embargo, se presentan erogaciones para las cuales no es fácil identificar a
 
 Con base en lo anterior, los costos reconocidos contablemente en las actividades misionales de posgrado, investigación y extensión se tomarán como costos directos y no serán objeto de ninguna distribución; y los costos reconocidos contablemente en las cuentas de costos de pregrado se distribuyen en las cuatro actividades misionales de la Universidad, tomando como inductores los definidos previamente en el presente documento. (Ver @tbl-Inductores).
 
-![Distribución costos de pregrado a demás actividades misionales. Fuente: Elaboración propia](IlustracionesCostos/ilustracion6.png "Distribución costos de pregrado a demás actividades misionales"){width="70%" fig-align="center"}
+![Ilustración 6. Distribución costos de pregrado a demás actividades misionales. Fuente: Elaboración propia](IlustracionesCostos/ilustracion6.png "Distribución costos de pregrado a demás actividades misionales"){width="70%" fig-align="center"}
 
 ### Distribución de los costos de Nivel Nacional y Unimedios
 
@@ -112,7 +112,7 @@ A continuación, se asignan los costos de Unimedios a las sedes de la Universida
 
 Se obtiene la tasa de asignación tomando los costos de Unimedios y se dividen entre la suma de los "Otros Costos y Gastos" por sede y por agrupación. De esta manera, Unimedios distribuye todos sus costos. Multiplicando la tasa de asignación por el costo de cada agrupación en cada sede.
 
-![Distribución de costos del Nivel Nacional y Unimedios. Fuente: Elaboración propia](IlustracionesCostos/ilustracion7.png "Distribución de costos del Nivel Nacional y Unimedios"){width="70%" fig-align="center"}
+![Ilustración 7. Distribución de costos del Nivel Nacional y Unimedios. Fuente: Elaboración propia](IlustracionesCostos/ilustracion7.png "Distribución de costos del Nivel Nacional y Unimedios"){width="70%" fig-align="center"}
 
 \newpage
 
@@ -122,6 +122,6 @@ Del total de los costos reconocidos en la contabilidad de la Universidad se excl
 
 El último paso en el proceso de construcción del modelo de costos a nivel de sede es la distribución de los costos indirectos reconocidos contablemente en cada una de las sedes, a los costos misionales de las mismas estos costos indirectos son aquellos catalogados como "otros costos y gastos". Para ello, se usan los mismos inductores definidos para la distribución de los costos de pregrado (@tbl-Inductores).
 
-![Distribución de Costos Indirectos a Actividades Misionales. Fuente: Elaboración propia](IlustracionesCostos/ilustracion8.png "Distribución de Costos Indirectos a Actividades Misionales"){width="70%" fig-align="center"}
+![Ilustración 8. Distribución de Costos Indirectos a Actividades Misionales. Fuente: Elaboración propia](IlustracionesCostos/ilustracion8.png "Distribución de Costos Indirectos a Actividades Misionales"){width="70%" fig-align="center"}
 
 Una vez realizadas estas distribuciones, sumada con los costos del PTA, se obtienen las estructuras de costos para las nueve sedes de la Universidad, esto es el costo final de cada una de las cuatro actividades misionales en las diferentes sedes.

@@ -24,7 +24,7 @@ Para el caso de las áreas de Nivel Central cuyas actividades se encuentren dire
 
 El Nivel Central de las sedes se encuentra conformado por las siguientes empresas.
 
-![Empresas Nivel Central. Fuente: Elaboración propia](IlustracionesCostos/ilustracion9.png "Empresas Nivel Central"){width="60%" fig-align="center"}
+![Ilustración 9. Empresas Nivel Central. Fuente: Elaboración propia](IlustracionesCostos/ilustracion9.png "Empresas Nivel Central"){width="60%" fig-align="center"}
 
 \newpage
 

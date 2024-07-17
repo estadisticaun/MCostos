@@ -4,7 +4,7 @@ La Universidad Nacional "fue creada en 1867 por medio de la expedición de la Le
 
 Actualmente, la Universidad se encuentra conformada por el Nivel Nacional, nueve sedes; cinco sedes andinas, y cuatro sedes de presencia nacional. Adicionalmente cuenta con unidades de gestión como son Unimedios, Unisalud, Editorial, Fondo Pensional y Regalías como se representa en el siguiente esquema:
 
-![Estructura organizativa financiera de la Universidad. Fuente: Gerencia Nacional Financiera y Administrativa](IlustracionesCostos/ilustracion1.png "Estructura organizativa financiera de la Universidad"){width="70%" fig-align="center"}
+![Ilustración 1. Estructura organizativa financiera de la Universidad. Fuente: Gerencia Nacional Financiera y Administrativa](IlustracionesCostos/ilustracion1.png "Estructura organizativa financiera de la Universidad"){width="70%" fig-align="center"}
 
 Dado que la función administrativa en Colombia debe desarrollarse de acuerdo con los principios constitucionales de igualdad, celeridad, economía, imparcialidad, eficacia, eficiencia, participación, publicidad, responsabilidad y transparencia, se hace importante para la gestión de la Universidad la generación de información útil para planear, evaluar y controlar las actividades y recursos empleados en el desarrollo de sus actividades misionales.
 

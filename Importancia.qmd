@@ -1,0 +1,41 @@
+# Importancia de la contabilidad de costos {#sec-importancia}
+
+La contabilidad de gestión o de costos es un elemento sumamente importante para las organizaciones, toda vez que entre los objetivos de la misma se destaca la valoración del costo de producción, y el suministro de información para la planificación, evaluación y control, así como el apoyo en la toma de decisiones estratégicas, tácticas y operativas (Ripoll Feliu, 1992) [@Ripoll]. Pese a ello, la contabilidad de gestión en Colombia ha sido un campo descuidado por años en el contexto empresarial, como ha sido puesto en evidencia por diferentes autores.
+
+Este hecho se presenta de manera preponderante en el sector público, en respuesta a esta situación, la Contaduría General de la Nación publicó en el año 2008 el Marco de Referencia para la Implantación del Sistema de Costos en las Entidades del Sector Público. En dicho documento, la Contaduría define el sistema de costos como el "conjunto de metodologías, modelos o procedimientos contables y administrativos que se llevan a cabo con el objetivo de determinar el costo de los diferentes objetos de costo" [@Contaduria]. El mismo documento menciona la tendencia en el ámbito internacional de adoptar políticas públicas que permitan el mejoramiento de la información contable y la inclusión de costos, así como algunas ventajas derivadas de la implementación de la contabilidad de costos, de las que se pueden destacar las siguientes [@Contaduria]:
+
+-   Facilita la obtención del costo de programas especiales, proyectos, productos o servicios, con o sin retribución económica.
+
+-   Mejora la eficacia y eficiencia en el manejo de los recursos públicos.
+
+-   Permite a la comunidad evaluar la gestión realizada.
+
+-   El costo es una herramienta financiera útil para la toma de decisiones.
+
+-   Permite hacer más eficiente la planeación y los presupuestos.
+
+-   Constituye una herramienta para la evaluación del desempeño de directores y administradores.
+
+En este sentido, es importante mencionar el Libro Blanco de los Costes en las Universidades, publicado por la Oficina de Cooperación Universitaria en el año 2011, el texto pone en evidencia la necesidad de la implementación de sistemas de costos en las Universidades, destacando, entre otros, los siguientes objetivos a perseguir con un modelo de costos [@LopezCarrasco].
+
+-   Valoración de activos generados por la actividad de la universidad.
+
+-   Evaluación de la eficiencia y economía con la que se gestionan los recursos públicos.
+
+-   Obtención de información adecuada para orientar la toma de decisiones en la Universidad.
+
+-   Generación de información para la fijación de tasas y precios públicos de los servicios universitarios.
+
+-   Generación de información para facilitar el presupuesto y el control.
+
+-   Comparabilidad con otras universidades.
+
+Adicionalmente, el mencionado texto destaca que las Universidades requieren contar con información de costos para dos fines, en primer lugar, como instrumento de gestión interna, con el fin de ejercer control sobre los responsables de las diferentes actividades; en segundo lugar, como instrumento de información externa, esto es para demostrar la efectividad en el uso de los recursos puestos a su disposición [@LopezCarrasco].
+
+En este sentido, el libro blanco de los costes para universidad ha definido cuatro niveles de usuarios de la información de costos, los cuales se detallan a continuación [@LopezCarrasco]:
+
+-   Nivel 1: Órganos de alta dirección de la Universidad, es decir rector, consejos universitarios.
+-   Nivel 2: Órganos de gestión funcional intermedia, decanos, directores de institutos, directores de departamentos.
+-   Nivel 3: Órganos de gestión funcional operativa, los cuales comprenden responsables de gestión de gastos, responsables económicos, servicios administrativos, etc.
+-   Nivel 4: Usuarios externos a la universidad como lo son el gobierno, las empresas privadas y la comunidad en general.
+
